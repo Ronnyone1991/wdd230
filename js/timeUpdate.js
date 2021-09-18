@@ -1,1 +1,2 @@
-alert(document.lastModified);
+let time = (document.lastModified);
+document.getElementById("")
