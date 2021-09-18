@@ -5,6 +5,11 @@ body {
 }
 
 .content {
-    max-width: 910px;
+    max-width: 1060px;
     margin: 0 auto;
+}
+
+h1 {
+    background-color: royalblue;
+    color: white;
 }
