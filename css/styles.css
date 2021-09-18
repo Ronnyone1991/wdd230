@@ -3,3 +3,8 @@
 body {
     font-family: 'Rubik', sans-serif;
 }
+
+.content {
+    max-width: 910px;
+    margin: 0 auto;
+}
