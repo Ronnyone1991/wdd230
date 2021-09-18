@@ -13,7 +13,21 @@ h1 {
     background-color: royalblue;
     color: white;
     text-align: center;
-    padding-top: 2.4%;
-    padding-bottom: 2.4%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
     border-radius: 5px;
+}
+
+footer {
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-radius: 5px;
+}
+
+footer p a {
+    color: white;
 }
