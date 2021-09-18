@@ -12,4 +12,8 @@ body {
 h1 {
     background-color: royalblue;
     color: white;
+    text-align: center;
+    padding-top: 2.4%;
+    padding-bottom: 2.4%;
+    border-radius: 5px;
 }
