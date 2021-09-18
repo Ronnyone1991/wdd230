@@ -1,2 +1,2 @@
 let hour = document.lastModified;
-document.getElementById("time").innerHTML = "Last Update: " + hour;
+document.getElementById("time").innerHTML = "Las Update: " + hour;
