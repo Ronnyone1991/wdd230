@@ -36,7 +36,7 @@ footer {
     margin-top: 14%;
 }
 h2 {
-    border-bottom: solid 2px;
+    border-bottom: solid 1px;
 }
 
 img {
@@ -44,10 +44,10 @@ img {
     height: auto;
     position: absolute;
     margin-left: 58%;
-    margin-top: -20%;
+    margin-top: -23%;
     border-radius: 5px;
 }
 
 nav ul {
-    font-size: 30px;
+    font-size: 40px;
 }
