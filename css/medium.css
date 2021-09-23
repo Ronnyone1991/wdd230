@@ -1,0 +1,13 @@
+@media only screen and (mid-width: 32-0.5em) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .picture-box {
+        float: right;
+    }
+}
