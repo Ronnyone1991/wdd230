@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Rubik', sans-serif;
-    width: 100%;
 }
 
 .content {
@@ -36,15 +35,17 @@ footer p a {
 footer {
     margin-top: 14%;
 }
+
 h2 {
     border-bottom: solid 1px;
 }
 
-#picture-box img {
-    max-width: 100%;
+img {
+    width: 100%;
+    height: auto;
 }
 
-img {
+.picture-box {
     position: absolute;
     border-radius: 5px;
     margin-left: 49em;
