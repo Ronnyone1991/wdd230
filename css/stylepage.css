@@ -27,11 +27,16 @@ footer {
 img {
     border: 2px solid;
     border-radius: 15px;
+    max-width: 100%;
+    height: auto;
 }
 
 main {
     text-align: center;
     font-size: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 6px;
 }
 
 .desing {
