@@ -23,3 +23,8 @@ footer {
     font-size: 32px;
     font-family: 'Lato', sans-serif;
 }
+
+img {
+    border: 2px solid;
+    border-radius: 15px;
+}
