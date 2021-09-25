@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
+/* screen for tablets and medium device*/
+@media only screen and (max-width: 600px) {
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
 header {
     background-color:darkslategray;
     color: white;
