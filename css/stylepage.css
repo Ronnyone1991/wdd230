@@ -31,11 +31,17 @@ img {
 
 main {
     text-align: center;
+    font-size: 1em;
 }
 
 .desing {
+    text-align: left;
     background-color: darkslateblue;
     color: white;
     padding: 3px;
     border-radius: 10px 10px 0px 0px;
+}
+
+a {
+    font-size: 1.5em;
 }
