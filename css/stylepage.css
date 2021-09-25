@@ -59,7 +59,7 @@ a {
     font-size: 1.5em;
 }
 
-/*medium*/
+/*medium screen*/
 @media only screen and (mid-width: 32.4em) {
     h1 {
         font-size: 2.5em;
@@ -73,7 +73,7 @@ a {
         float: right;
     }
 }
-/*large*/
+/*large screen*/
 @media only screen and (min-width: 59em){
     main {
     grid-template-columns: 1fr 1fr 1fr;
