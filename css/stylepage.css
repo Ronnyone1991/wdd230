@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
 header {
-    background-color: darkmagenta;
+    background-color:darkslategray;
     color: white;
     text-align: center;
-    border-radius: 8px;
     font-family: 'Lato', sans-serif;
     font-size: 1.2em;
 }
@@ -15,7 +15,7 @@ header {
 }
 
 footer {
-    background-color: darkslateblue;
+    background-color:darkslategray;
     color: white;
     font-size: 40px;
     text-align: center;
@@ -36,13 +36,14 @@ main {
     font-size: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 6px;
+    grid-gap: 9px;
+    font-family: 'Cabin', sans-serif;
 }
 
 .desing {
     text-align: left;
-    background-color: darkslateblue;
-    color: white;
+    background-color:darkslategray;
+    color:white;
     padding: 4px;
     border-radius: 10px 10px 0px 0px;
 }
