@@ -28,3 +28,14 @@ img {
     border: 2px solid;
     border-radius: 15px;
 }
+
+main {
+    text-align: center;
+}
+
+.desing {
+    background-color: darkslateblue;
+    color: white;
+    padding: 3px;
+    border-radius: 10px 10px 0px 0px;
+}
