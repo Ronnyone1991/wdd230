@@ -59,7 +59,7 @@ a {
     font-size: 1.5em;
 }
 /*small screen*/
-@media all and (min-width: 20em) {
+@media all and (max-width: 20em) {
     main {
         display: grid;
         grid-template-columns: 1fr;
@@ -67,14 +67,14 @@ a {
 }
 
 /*medium screen*/
-@media all and (mid-width: 32.4em) {
+@media all and (max-width: 32.4em) {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 /*large screen*/
-@media all and (min-width: 59em){
+@media all and (max-width: 59em){
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
