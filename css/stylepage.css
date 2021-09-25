@@ -61,21 +61,15 @@ a {
 
 /*medium screen*/
 @media only screen and (mid-width: 32.4em) {
-    h1 {
-        font-size: 2.5em;
-    }
-
-    h2 {
-        font-size: 1.5em;
-    }
-
-    .picture-box {
-        float: right;
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 /*large screen*/
 @media only screen and (min-width: 59em){
     main {
-    grid-template-columns: 1fr 1fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
