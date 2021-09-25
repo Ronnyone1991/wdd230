@@ -18,11 +18,16 @@ header, main, footer {
 footer {
     background-color:darkslategray;
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     font-size: 25px;
     font-family: 'Lato', sans-serif;
     border-radius: 15px 15px 0px 0px;
+}
+
+footer a {
+    font-size: 25px;
+    color: white;
 }
 
 img {
