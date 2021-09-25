@@ -74,7 +74,7 @@ a {
     }
 }
 /*large screen*/
-@media all and (max-width: 59em){
+@media all and (max-width: 60em){
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
