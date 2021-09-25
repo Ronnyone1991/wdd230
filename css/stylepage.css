@@ -58,6 +58,13 @@ main {
 a {
     font-size: 1.5em;
 }
+/*small screen*/
+@media only scrren and (min-width: 20em;) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
 
 /*medium screen*/
 @media only screen and (mid-width: 32.4em) {
