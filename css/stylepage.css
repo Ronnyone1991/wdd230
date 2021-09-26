@@ -62,11 +62,11 @@ a {
     font-size: 1.5em;
 }
 
-/*small screen*/
-@media all and (max-width: 200px) {
+/*large screen*/
+@media all and (max-width: 500px) {
     main {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
@@ -77,10 +77,10 @@ a {
         grid-template-columns: 1fr 1fr;
     }
 }
-/*large screen*/
-@media all and (max-width: 500px){
+/*small screen*/
+@media all and (max-width: 200px){
     main{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
