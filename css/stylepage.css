@@ -54,7 +54,8 @@ main {
     background-color:darkslategray;
     color:white;
     padding: 4px;
-    border-radius: 10px 10px 0px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 a {
@@ -64,7 +65,7 @@ a {
 @media all and (max-width: 200px) {
     main {
         display: grid;
-        grid-template-columns: 1fr
+        grid-template-columns: 1fr;
     }
 }
 
@@ -72,13 +73,13 @@ a {
 @media all and (max-width: 300px) {
     main {
         display: grid;
-        grid-template-columns: 1fr 1fr
+        grid-template-columns: 1fr 1fr;
     }
 }
 /*large screen*/
 @media all and (max-width: 500px){
     main{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
