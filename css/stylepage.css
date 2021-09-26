@@ -63,21 +63,21 @@ a {
 }
 
 /*large screen*/
-@media all and (max-width: 500px) {
+@media all and (max-width: 60em) {
     main {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 /*medium screen*/
-@media all and (max-width: 300px) {
+@media all and (max-width: 32.5em) {
     main {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 /*small screen*/
-@media all and (max-width: 200px) {
+@media all and (max-width: 20em) {
     main {
         grid-template-columns: 1fr;
     }
