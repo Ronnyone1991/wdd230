@@ -44,8 +44,8 @@ main {
     text-align: center;
     font-size: 1em;
     display: grid;
+    grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 9px;
     font-family: 'Cabin', sans-serif;
 }
 
@@ -70,7 +70,7 @@ a {
 }
 
 /*medium screen*/
-@media all and (max-width: 32.5em) {
+@media all and (max-width: 33em) {
     main {
         grid-template-columns: 1fr 1fr;
     }
