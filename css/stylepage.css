@@ -71,7 +71,7 @@ a {
 }
 
 /*medium screen*/
-@media all and (min-width: 300px) {
+@media all and (max-width: 300px) {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -79,7 +79,7 @@ a {
 }
 
 /*small screen*/
-@media all and (min-width: 200px) {
+@media all and (max-width: 200px) {
     main {
         display: grid;
         grid-template-columns: 1fr;
