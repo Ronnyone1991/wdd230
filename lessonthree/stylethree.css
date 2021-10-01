@@ -1,6 +1,29 @@
+header {
+    background-color: black;
+    color: white;
+}
 
+.maintitle {
+    text-align: center;
+}
+
+header, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
 
 nav ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
     background-color: black;
+}
+
+nav a {
+    color: white;
+}
+
+nav li {
+    display: inline;
+    padding: 60px;
 }
