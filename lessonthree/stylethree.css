@@ -6,8 +6,8 @@ body {
 header {
   background-color: black;
   color: white;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 h1,
