@@ -1,29 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap");
+
+body {
+  font-size: 1.2em;
+}
 header {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
+}
+
+h1,
+h2 {
+  font-family: "Prompt", sans-serif;
 }
 
 .maintitle {
-    text-align: center;
+  text-align: center;
 }
 
-header, main, footer {
-    max-width: 960px;
-    margin: 0 auto;
+header,
+main,
+footer {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 nav a {
-    color: white;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
 }
 
 nav li {
-    display: inline;
-    padding: 60px;
+  font-family: "Prompt", sans-serif;
+  float: left;
 }
