@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 body {
   font-size: 1.2em;
@@ -99,6 +100,12 @@ nav li a:hover {
 .font {
   background-color: #603A40;
   color: #FFE5D4;
+}
+
+.headerfont {
+  font-family: 'Staatliches', cursive;
+  background-color: #440D0F;
+  color: white;
 }
 
 /*medium screen*/
