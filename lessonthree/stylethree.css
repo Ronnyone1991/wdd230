@@ -4,6 +4,12 @@ body {
   font-size: 1.2em;
   background-color: #94A89A;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 header {
   background-color: black;
   color: white;
@@ -66,3 +72,4 @@ nav li {
 nav li a:hover {
     background-color: #8B9556;
 }
+
