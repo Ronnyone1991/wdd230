@@ -100,3 +100,17 @@ nav li a:hover {
   background-color: #603A40;
   color: #FFE5D4;
 }
+
+/*medium screen*/
+@media all and (max-width: 33em) {
+  main {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*small screen*/
+@media all and (max-width: 30em) {
+  main {
+      grid-template-columns: 1fr;
+  }
+}
