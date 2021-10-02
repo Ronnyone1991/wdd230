@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 body {
   font-size: 1.2em;
@@ -111,6 +112,11 @@ nav li a:hover {
 
 .footerfont {
   font-family: 'Staatliches', cursive;
+  background-color: #440D0F;
+  color: white;
+}
+.navfont {
+  font-family: 'Secular One', sans-serif;
   background-color: #440D0F;
   color: white;
 }
