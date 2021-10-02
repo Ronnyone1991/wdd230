@@ -16,6 +16,8 @@ footer {
   text-align: center;
   font-family: "Prompt", sans-serif;
   color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 footer a {
