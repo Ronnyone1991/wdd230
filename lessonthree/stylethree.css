@@ -70,6 +70,7 @@ nav li {
 .personas {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
 }
 
 nav li a:hover {
