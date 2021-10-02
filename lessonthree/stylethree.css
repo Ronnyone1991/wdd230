@@ -67,6 +67,11 @@ nav li {
   float: left;
 }
 
+.personas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 nav li a:hover {
     background-color: #8B9556;
 }
