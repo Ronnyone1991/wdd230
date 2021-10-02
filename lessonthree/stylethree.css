@@ -130,6 +130,11 @@ nav li a:hover {
   color: white;
 }
 
+.coloroption {
+  background-color: white;
+  color: black;
+}
+
 /*medium screen*/
 @media all and (max-width: 33em) {
   main {
