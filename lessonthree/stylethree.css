@@ -82,5 +82,16 @@ nav li a:hover {
 }
 
 .headerfooter {
-  background-color: #0ACDFF;
+  background-color: #440D0F;
+  color: white;
+}
+
+.colornav {
+  background-color: #603A40;
+  color: white;
+}
+
+.font {
+  background-color: #603A40;
+  color: #FFE5D4;
 }
