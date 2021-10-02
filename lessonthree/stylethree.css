@@ -11,6 +11,17 @@ header {
   border-top-right-radius: 15px;
 }
 
+footer {
+  background-color: black;
+  text-align: center;
+  font-family: "Prompt", sans-serif;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
 h1,
 h2 {
   font-family: "Prompt", sans-serif;
