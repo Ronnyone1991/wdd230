@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
 
 body {
   font-size: 1.2em;
@@ -32,7 +32,9 @@ footer a {
   color: white;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Prompt", sans-serif;
 }
 
@@ -43,7 +45,6 @@ h1, h2, h3 {
 header,
 main,
 footer {
-
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -53,7 +54,8 @@ table {
   font-family: "Prompt", sans-serif;
 }
 
-td, th {
+td,
+th {
   padding: 40px;
   text-align: center;
 }
@@ -87,63 +89,65 @@ nav li {
 }
 
 nav li a:hover {
-    background-color: #8B9556;
+  background-color: #8b9556;
 }
 
 .headerfooter {
-  background-color: #440D0F;
+  background-color: #440d0f;
   color: white;
 }
 
 .colornav {
-  background-color: #603A40;
+  background-color: #603a40;
   color: white;
 }
 
 .font {
-  background-color: #603A40;
-  color: #FFE5D4;
+  background-color: #603a40;
+  color: #ffe5d4;
 }
 
 .headerfont {
-  font-family: 'Staatliches', cursive;
-  background-color: #440D0F;
+  font-family: "Staatliches", cursive;
+  background-color: #440d0f;
   color: white;
 }
 
 .footerfont {
-  font-family: 'Staatliches', cursive;
-  background-color: #440D0F;
+  font-family: "Staatliches", cursive;
+  background-color: #440d0f;
   color: white;
 }
 .navfont {
-  font-family: 'Secular One', sans-serif;
-  background-color: #440D0F;
+  font-family: "Secular One", sans-serif;
+  background-color: #440d0f;
   color: white;
 }
 
 .contentfont {
-  font-family: 'Montserrat Alternates', sans-serif;
-  background-color: #440D0F;
+  font-family: "Montserrat Alternates", sans-serif;
+  background-color: #440d0f;
   color: white;
 }
 
 /*medium screen*/
 @media all and (max-width: 33em) {
   main {
-      grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 /*small screen*/
 @media all and (max-width: 30em) {
   main {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
   nav ul {
     display: flex;
+    flex-direction: column;
+    
   }
-  nav ul li {
-    flex: 1 1 100%;
+  nav li {
+    margin: 0.8em 0;
   }
 }
