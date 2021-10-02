@@ -48,10 +48,11 @@ footer {
 
 table {
   margin: 0 auto;
+  font-family: "Prompt", sans-serif;
 }
 
 td, th {
-  padding: 18px;
+  padding: 40px;
   text-align: center;
 }
 
@@ -103,6 +104,12 @@ nav li a:hover {
 }
 
 .headerfont {
+  font-family: 'Staatliches', cursive;
+  background-color: #440D0F;
+  color: white;
+}
+
+.footerfont {
   font-family: 'Staatliches', cursive;
   background-color: #440D0F;
   color: white;
