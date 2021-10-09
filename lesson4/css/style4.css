@@ -9,6 +9,10 @@ main, footer {
     margin: 0 auto;
 }
 
+footer {
+    background-color: #440d0f;
+}
+
 header {
     background-color:  #440d0f;
     color: white;
@@ -18,4 +22,8 @@ header img {
     border-radius: 10px;
     width: 170px;
     height: 150px;
+}
+
+#logo-box {
+    background-color: #440d0f;
 }
