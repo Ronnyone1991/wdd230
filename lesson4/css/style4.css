@@ -80,3 +80,22 @@ footer ul {
 .material-icons {
     color: white;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  .fa-facebook {
+    background-color: white;
+    color:  #440d0f;
+}
+
+.fa-twitter {
+    background-color: white;
+    color: #440d0f;
+  }
