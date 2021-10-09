@@ -70,3 +70,13 @@ footer img {
     padding-bottom: 1em;
     padding-left: 7em;
 }
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    color: white;
+}
+
+.material-icons {
+    color: white;
+}
