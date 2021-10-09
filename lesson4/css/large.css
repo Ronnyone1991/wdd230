@@ -1,148 +1,148 @@
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 main {
-    max-width: 980px;
-    margin: 0 auto;
-    font-family: "Montserrat Alternates", sans-serif;
-    color: brown;
+  max-width: 980px;
+  margin: 0 auto;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: brown;
 }
 
 .preston {
-    width: 960px;
-    height: 250px;
+  width: 960px;
+  height: 250px;
 }
 
 #summary {
-    z-index: 1;
-    margin-top: -250px;
-    margin-bottom: 88px;
-    margin-left: 20px;
-    width: 300px;
-    height: 200px;
+  z-index: 1;
+  margin-top: -250px;
+  margin-bottom: 88px;
+  margin-left: 20px;
+  width: 300px;
+  height: 200px;
 }
 
 #five {
-    float: right;
+  float: right;
 }
 footer {
-    background-color: #440d0f;
+  background-color: #440d0f;
 }
 
 header {
-    background-color:  #440d0f;
-    color: white;
-    font-family: "Staatliches", cursive;
+  background-color: #440d0f;
+  color: white;
+  font-family: "Staatliches", cursive;
 }
 
 header img {
-    width: 300px;
-    height: 290px;
-    margin-left: 4em;
-    margin-top: -1em;
-    margin-bottom: 2em;
+  width: 300px;
+  height: 290px;
+  margin-left: 4em;
+  margin-top: -1em;
+  margin-bottom: 2em;
 }
 
 #motto {
-    margin-left: 23em;
-    margin-top: -15em;
-    margin-bottom: 4em;
+  margin-left: 23em;
+  margin-top: -15em;
+  margin-bottom: 4em;
 }
 
 nav ul {
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr)); 
-  background-color: #60AB9A;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  background-color: #60ab9a;
   text-align: center;
   font-family: "Secular One", sans-serif;
-}   
+}
 
 nav a {
-    font-size: 1.5em;
-    text-decoration: none;
-    color: brown;
-    padding: 10px;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: brown;
+  padding: 10px;
 }
 
 nav li {
-    padding: 10px;
+  padding: 10px;
 }
 
 nav a:hover {
-    background-color: darkorange;
-    color: black;
+  background-color: darkorange;
+  color: black;
 }
 
 footer h3 {
-    background-color: #440d0f;
-    font-family: 'Mukta', sans-serif;
-    color: white;
+  background-color: #440d0f;
+  font-family: "Mukta", sans-serif;
+  color: white;
 }
 
 footer img {
-    width: 400px;
-    height: 230px;
-    padding-top: 1.4em;
-    padding-bottom: 1em;
-    padding-left: 7em;
+  width: 400px;
+  height: 230px;
+  padding-top: 1.4em;
+  padding-bottom: 1em;
+  padding-left: 7em;
 }
 
 footer ul {
-    list-style-type: none;
-    padding-left: 0;
-    color: white;
-    font-family: 'Mukta', sans-serif;
+  list-style-type: none;
+  padding-left: 0;
+  color: white;
+  font-family: "Mukta", sans-serif;
 }
 
 footer li {
-    padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 
 .material-icons {
-    color: white;
+  color: white;
 }
 
 .fa {
-    padding: 20px;
-    font-size: 60px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin-right: 10px;
-  }
+  padding: 20px;
+  font-size: 60px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px;
+}
 
-  .fa-facebook {
-    background-color: white;
-    color:  #440d0f;
+.fa-facebook {
+  background-color: white;
+  color: #440d0f;
 }
 
 .fa-twitter {
-    background-color: white;
-    color: #440d0f;
-  }
+  background-color: white;
+  color: #440d0f;
+}
 
-  .fa-instagram {
-      background-color: white;
-      color: #440d0f;
-  }
+.fa-instagram {
+  background-color: white;
+  color: #440d0f;
+}
 
-  #social {
-      margin-left: 56em;
-      margin-top: -17em;
-  }
+#social {
+  margin-left: 56em;
+  margin-top: -17em;
+}
 
-  .info {
-      text-align: center;
-      font-family: 'Mukta', sans-serif;
-      font-size: 1.5em;
-      color: white;
-      padding: 6px;
-  }
+.info {
+  text-align: center;
+  font-family: "Mukta", sans-serif;
+  font-size: 1.5em;
+  color: white;
+  padding: 6px;
+}
