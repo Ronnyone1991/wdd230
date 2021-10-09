@@ -10,5 +10,12 @@ main, footer {
 }
 
 header {
-    text-align: center;
+    background-color:  #440d0f;
+    color: white;
+}
+
+header img {
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
 }
