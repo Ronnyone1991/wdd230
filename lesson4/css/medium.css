@@ -1,5 +1,5 @@
 @media all and (max-width: 33em) {
-  main {
+  header, main, footer {
    display: grid;
    grid-template-columns: 1fr 1fr;
   }
