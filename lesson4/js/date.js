@@ -1,4 +1,3 @@
-let now = new Date();
 // return the day of the week
 var d = new Date();
   var weekday = new Array(7);
