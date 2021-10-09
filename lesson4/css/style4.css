@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 
 img {
     max-width: 100%;
@@ -16,14 +17,34 @@ footer {
 header {
     background-color:  #440d0f;
     color: white;
+    font-family: "Staatliches", cursive;
 }
 
 header img {
-    border-radius: 10px;
-    width: 170px;
-    height: 150px;
+    width: 300px;
+    height: 290px;
+    margin-left: 18em;
 }
 
-#logo-box {
-    background-color: #440d0f;
+#motto {
+    margin-left: 36em;
+    margin-top: -12.5em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #60AB9A;
+  
+}
+    
+
+nav li {
+    display: inline;
+    border: solid 1px black;
+}
+
+nav a {
+    border: solid 1px black;
 }
