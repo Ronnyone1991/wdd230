@@ -16,10 +16,22 @@ main {
 }
 
 .preston {
-    width: 980px;
-    height: 300px;
+    width: 960px;
+    height: 250px;
 }
 
+#summary {
+    z-index: 1;
+    margin-top: -250px;
+    margin-bottom: 88px;
+    margin-left: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+#five {
+    float: right;
+}
 footer {
     background-color: #440d0f;
 }
