@@ -1,7 +1,24 @@
 /*css*/
-@media all and (max-width: 32.5em) {
-  main, header, footer {
-    max-width: 400px;
+@media all and (max-width: 33em) {
+  main,
+  header, {
+    max-width: 480px;
+    margin: 0 auto
+  }
+
+  footer img {
+                width: 280px;
+  }
+
+  footer, header, nav ul{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #social {
     margin: 0 auto;
+  }
+
+  #social {
+    float: left;
   }
 }
