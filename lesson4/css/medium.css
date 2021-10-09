@@ -1,11 +1,5 @@
 /*css*/
-@media all and (max-width: 33em) {
-  main,
-  header, {
-    max-width: 480px;
-    margin: 0 auto
-  }
-
+@media all and (max-width: 40.5em) {
   footer img {
                 width: 280px;
   }
