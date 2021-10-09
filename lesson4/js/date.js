@@ -12,5 +12,3 @@ var d = new Date();
   var n = weekday[d.getDay()];
 
   document.getElementById("date").innerHTML = n;
-}
-
