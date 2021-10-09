@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
 
 img {
     max-width: 100%;
@@ -59,8 +60,10 @@ nav a:hover {
     color: black;
 }
 
-footer {
+footer h3 {
     background-color: #440d0f;
+    font-family: 'Mukta', sans-serif;
+    color: white;
 }
 
 footer img {
@@ -75,6 +78,11 @@ footer ul {
     list-style-type: none;
     padding-left: 0;
     color: white;
+    font-family: 'Mukta', sans-serif;
+}
+
+footer li {
+    padding-bottom: 1em;
 }
 
 .material-icons {
@@ -83,7 +91,7 @@ footer ul {
 
 .fa {
     padding: 20px;
-    font-size: 30px;
+    font-size: 60px;
     width: 50px;
     text-align: center;
     text-decoration: none;
@@ -98,4 +106,14 @@ footer ul {
 .fa-twitter {
     background-color: white;
     color: #440d0f;
+  }
+
+  .fa-instagram {
+      background-color: white;
+      color: #440d0f;
+  }
+
+  #social {
+      margin-left: 56em;
+      margin-top: -15em;
   }
