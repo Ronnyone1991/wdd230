@@ -117,3 +117,11 @@ footer li {
       margin-left: 56em;
       margin-top: -17em;
   }
+
+  .info {
+      text-align: center;
+      font-family: 'Mukta', sans-serif;
+      font-size: 1.5em;
+      color: white;
+      padding: 6px;
+  }
