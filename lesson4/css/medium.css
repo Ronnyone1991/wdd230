@@ -1,18 +1,1 @@
 /*css*/
-@media all and (max-width: 35em) {
-  footer img {
-                width: 280px;
-  }
-
-  footer, header {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  #social {
-    margin: 0 auto;
-  }
-
-  #social {
-    float: left;
-  }
-}
