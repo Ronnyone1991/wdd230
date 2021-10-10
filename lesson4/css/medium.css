@@ -1,5 +1,8 @@
-@media all and (min-width: 35em) {
+@media only screen and (min-width: 35em) {
   nav button {
-    display: none;
+    display:none;
   }
-}
+  nav ul li a {
+    float: left;
+  }
+} /*end medium*/
