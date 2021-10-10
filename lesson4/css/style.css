@@ -36,9 +36,9 @@ main {
 #five {
   float: right;
 }
+
 footer {
   background-color: #440d0f;
-  display: flexbox;
 }
 
 header {
