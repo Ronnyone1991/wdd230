@@ -4,7 +4,7 @@
                 width: 280px;
   }
 
-  footer, header, nav ul{
+  footer, header {
     display: grid;
     grid-template-columns: 1fr;
   }
