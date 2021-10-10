@@ -56,31 +56,6 @@ header img {
   margin-bottom: 4em;
 }
 
-nav ul {
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
-  background-color: #60ab9a;
-  text-align: center;
-  font-family: "Secular One", sans-serif;
-}
-
-nav a {
-  font-size: 1.5em;
-  text-decoration: none;
-  color: brown;
-  padding: 10px;
-}
-
-nav li {
-  padding: 10px;
-}
-
-nav a:hover {
-  background-color: darkorange;
-  color: black;
-}
-
 footer h3 {
   background-color: #440d0f;
   font-family: "Mukta", sans-serif;
