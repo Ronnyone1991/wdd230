@@ -24,6 +24,7 @@ month[9] = "October";
 month[10] = "November";
 month[11] = "December";
 
+// display the current date to the user
 let n = weekday[now.getDay()];
 let monthday = now.getUTCDate();
 let m = month[now.getMonth()];
