@@ -66,9 +66,8 @@ footer h3 {
 footer img {
   width: 400px;
   height: 230px;
-  padding-top: 1.4em;
-  padding-bottom: 1em;
-  padding-left: 7em;
+  padding-top: 45px;
+  margin-left: 95px;
 }
 
 footer ul {
@@ -111,6 +110,9 @@ footer li {
 }
 
 #social {
+  margin-top: -200px;
+  margin-left: 60rem;
+  padding-bottom: 8px;
 }
 
 .info {
