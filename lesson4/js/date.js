@@ -24,9 +24,14 @@ month[9] = "October";
 month[10] = "November";
 month[11] = "December";
 
-
 let n = weekday[now.getDay()];
 let monthday = now.getUTCDate();
 let m = month[now.getMonth()];
 let year = now.getFullYear();
-document.getElementById("date").innerHTML = n + ", " + monthday + " " +m + " " + year;
+document.getElementById("date").innerHTML =
+  n + ", " + monthday + " " + m + " " + year;
+
+// mobile menu
+function toggleMenu() {
+  document.getElementById("primaryNav").classList.toggle("hide");
+}
