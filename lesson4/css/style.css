@@ -50,6 +50,11 @@ header h1, h2 {
   text-align: left;
 }
 
+header img {
+  width: 150px;
+  height: 150px;
+}
+
 #motto {
   margin-left: 23em;
   margin-top: -15em;
