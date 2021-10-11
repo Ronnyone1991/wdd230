@@ -36,6 +36,7 @@ main {
 
 footer {
   background-color: #440d0f;
+  height: 0 auto;
 }
 
 header {
