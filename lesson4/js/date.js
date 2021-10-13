@@ -26,11 +26,10 @@ month[11] = "December";
 
 // display the current date to the user
 let n = weekday[now.getDay()];
-let monthday = now.getUTCDate();
+let monthday = now.getDate();
 let m = month[now.getMonth()];
 let year = now.getFullYear();
-document.getElementById("date").innerHTML =
-  n + ", " + monthday + " " + m + " " + year;
+document.getElementById("date").innerHTML = n + ", " + monthday + " " + m + " " + year;
 
 // mobile menu
 function toggleMenu() {
