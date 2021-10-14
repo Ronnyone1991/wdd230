@@ -37,7 +37,6 @@ main {
 
 footer {
   background-color: #440d0f;
-  height: 0 auto;
 }
 
 header {
@@ -69,6 +68,7 @@ footer h3 {
 }
 
 footer img {
+  position: relative;
   width: 400px;
   height: 230px;
   padding-top: 45px;
@@ -116,9 +116,7 @@ footer li {
 }
 
 #social {
-  margin-top: -200px;
-  margin-left: 60rem;
-  padding-bottom: 8px;
+  position: relative;
 }
 
 .info {
