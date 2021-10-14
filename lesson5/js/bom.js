@@ -9,7 +9,7 @@ button.onclick = function () {
 
     const listItem = document.createElement("li");
     const listText = document.createElement("span");
-    const listBtn = document.createElement("buttom");
+    const listBtn = document.createElement("button");
 
     listItem.appendChild(listText);
     listText.textContent = myItem;
