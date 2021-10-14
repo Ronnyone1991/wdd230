@@ -68,12 +68,7 @@ footer h3 {
 }
 
 footer img {
-  position: relative;
-  width: 400px;
-  height: 230px;
-  padding-top: 45px;
-  margin-left: 150px;
-  border-radius: 10px;
+  position: absolute;
 }
 
 footer ul {
