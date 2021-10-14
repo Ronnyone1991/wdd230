@@ -72,6 +72,7 @@ footer img {
   width: 350px;
   height: 200px;
   padding-top: 25px;
+  margin-left: 20px;
 }
 
 footer ul {
@@ -114,7 +115,7 @@ footer li {
 }
 
 #social {
-  margin-left: 800px;
+  margin-left: 1000px;
   padding-top: 10px;
 }
 
