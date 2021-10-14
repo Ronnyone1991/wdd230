@@ -39,6 +39,12 @@ footer {
   background-color: #440d0f;
 }
 
+footer img {
+  width: 250px;
+  height: 150px;
+  position: relative;
+}
+
 header {
   background-color: #440d0f;
   color: white;
@@ -112,6 +118,7 @@ footer li {
 
 #social {
   position: relative;
+  margin-left: 500px;
 }
 
 .info {
