@@ -24,6 +24,6 @@ button.onclick = function () {
     input.focus();
   }
   else {
-    alert("Please enter your favorite Book of mormom charpter")
+    alert("Please enter your favorite scrpture of the book of mormom")
   }
 }
