@@ -67,14 +67,6 @@ footer h3 {
   color: white;
 }
 
-footer img {
-  position: absolute;
-  width: 350px;
-  height: 200px;
-  padding-top: 25px;
-  margin-left: 20px;
-}
-
 footer ul {
   list-style-type: none;
   padding-left: 0;
@@ -112,11 +104,6 @@ footer li {
 .fa-instagram {
   background-color: white;
   color: #440d0f;
-}
-
-#social {
-  margin-left: 1000px;
-  padding-top: 10px;
 }
 
 .info {

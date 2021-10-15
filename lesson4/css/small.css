@@ -1,4 +1,4 @@
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 20em) {
    
   nav button {
     margin: 0.2rem 2%;
@@ -38,6 +38,16 @@
   
   nav ul.hide {
     display: none;
+  }
+
+  footer img {
+    width: 150px;
+    height: 100px;
+    padding-top: 1.5rem;
+  }
+
+  #social {
+    padding-bottom: 1.5rem;
   }
   
   /*----- Clearfix: Force an Element not to collapse -----*/
