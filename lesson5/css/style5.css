@@ -33,6 +33,8 @@ main {
 
 #five {
   float: right;
+  width: 350px;
+  height: 184px;
 }
 
 footer {
