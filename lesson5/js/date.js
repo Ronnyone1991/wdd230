@@ -31,6 +31,11 @@ let m = month[now.getMonth()];
 let year = now.getFullYear();
 document.getElementById("date").innerHTML = n + ", " + monthday + " " + m + " " + year;
 
+let dayweek = now.getDay();
+if (dayweek == 5) {
+  document.getElementById("friday").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
+}
+
 // mobile menu
 function toggleMenu() {
   document.getElementById("primaryNav").classList.toggle("hide");
