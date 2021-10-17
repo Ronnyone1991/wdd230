@@ -140,3 +140,8 @@ th {
   background-color: brown;
   color: white;
 }
+
+td:hover {
+  background-color: black;
+  color: whitesmoke;
+}
