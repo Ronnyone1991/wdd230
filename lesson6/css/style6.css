@@ -32,6 +32,11 @@ main {
   background-color: white;
 }
 
+#summary li {
+  list-style-type: none;
+  padding: 3px;
+}
+
 #five {
   float: right;
   width: 350px;
