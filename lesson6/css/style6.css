@@ -21,17 +21,6 @@ main {
   border-radius: 5px;
 }
 
-#summary {
-  position: absolute;
-  z-index: 1;
-  margin-top: -242px;
-  margin-bottom: 88px;
-  margin-left: 20px;
-  width: 300px;
-  height: 200px;
-  background-color: white;
-}
-
 #summary li {
   list-style-type: none;
   padding: 3px;
