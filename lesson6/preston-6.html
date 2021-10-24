@@ -43,19 +43,31 @@
       <picture>
         <!--the 800 image is for screen sizes of 800 pixels, the 500 image is for screen sizes of 500 pixels, the 200 image is for screen sizes of 200 pixels-->
         <!-- the original photo is for screen sizes of beyond of 800 pixels-->
-        <source media="(max-width: 200px)" srcset="../lesson6/images/wdd230_image_franklin200.jpg">
-        <source media="(max-width: 500px)" srcset="../lesson6/images/wdd230_image_franklin500.jpg">
-        <source media="(max-width: 800px)" srcset="../lesson6/images/wdd230_image_franklin800.jpg">
-      <img src="../lesson6/images/wdd230_image_franklinOriginal (1).jpeg" alt="calm">
+        <source
+          media="(max-width: 200px)"
+          srcset="../lesson6/images/wdd230_image_franklin200.jpg"
+        />
+        <source
+          media="(max-width: 500px)"
+          srcset="../lesson6/images/wdd230_image_franklin500.jpg"
+        />
+        <source
+          media="(max-width: 800px)"
+          srcset="../lesson6/images/wdd230_image_franklin800.jpg"
+        />
+        <img
+          src="../lesson6/images/wdd230_image_franklinOriginal (1).jpeg"
+          alt="calm"
+        />
       </picture>
       <section id="summary">
         <h2 class="weathersummary">Weather Summary</h2>
         <ul>
-            <li>Currently: Rainy</li>
-            <li>High: 54 °F</li>
-            <li>Wind Shill: <span id="wind"></span></li>
-            <li>Humidity: 95%</li>
-            <li>Wind speed: 12 mph</li>
+          <li>Currently: Rainy</li>
+          <li>High: 54 °F</li>
+          <li>Wind Shill: <span id="wind"></span></li>
+          <li>Humidity: 95%</li>
+          <li>Wind speed: 12 mph</li>
         </ul>
       </section>
       <section id="forcast">
@@ -72,11 +84,11 @@
           </thead>
           <tbody>
             <tr>
-              <td><img src="https://placekitten.com/50/50" alt="cat"></td>
-              <td><img src="https://placekitten.com/50/50" alt="cat"></td>
-              <td><img src="https://placekitten.com/50/50" alt="cat"></td>
-              <td><img src="https://placekitten.com/50/50" alt="cat"></td>
-              <td><img src="https://placekitten.com/50/50" alt="cat"></td>
+              <td><img src="https://placekitten.com/50/50" alt="cat" /></td>
+              <td><img src="https://placekitten.com/50/50" alt="cat" /></td>
+              <td><img src="https://placekitten.com/50/50" alt="cat" /></td>
+              <td><img src="https://placekitten.com/50/50" alt="cat" /></td>
+              <td><img src="https://placekitten.com/50/50" alt="cat" /></td>
             </tr>
           </tbody>
         </table>
@@ -151,6 +163,14 @@
         <span id="date"></span>
       </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Montserrat+Alternates","Staatliches","Mukta:wght@600","Secular+One"],
+        },
+      });
+    </script>
     <script src="../lesson6/js/date.js"></script>
     <script src="../lesson6/js/windchill.js"></script>
   </body>
