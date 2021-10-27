@@ -5,3 +5,7 @@ main {
   grid-template-columns: 1fr;
   text-align: center;
 }
+
+img {
+  border: 1px solid black;
+}

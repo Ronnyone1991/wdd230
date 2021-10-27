@@ -9,7 +9,7 @@
   }
   
   nav {
-    background-color: #ccc;
+    background-color: grey;
     font-family: Verdana, sans-serif;
   }
   
@@ -23,20 +23,20 @@
     display: block;
     padding: 0.8rem;
     text-decoration: none;
-    color: #000;
+    color: whitesmoke;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
   }
   
-  nav ul li a:hover {
-    background-color: brown;
-    color: white;
-  }
-  
   .active {
-    background-color: orangered;
+    background-color: rgb(49, 110, 49);
     color: white;
   }
-  
+
+  nav ul li a:hover {
+    background-color: rgb(97, 61, 61);
+    color: whitesmoke;
+  }
+
   nav ul.hide {
     display: none;
   }
