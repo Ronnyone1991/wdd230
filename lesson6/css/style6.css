@@ -140,3 +140,7 @@ td:hover {
   background-color: black;
   color: whitesmoke;
 }
+
+.weatherheading {
+  text-align: center;
+}
