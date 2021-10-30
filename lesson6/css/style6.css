@@ -144,3 +144,8 @@ td:hover {
 .weatherheading {
   text-align: center;
 }
+
+#gallery {
+  max-width: 1200px;
+  margin: auto;
+}
