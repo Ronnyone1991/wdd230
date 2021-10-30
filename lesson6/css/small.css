@@ -56,6 +56,11 @@
     position: relative;
     margin-top: 80px;
   }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   
   /*----- Clearfix: Force an Element not to collapse -----*/
   .clearfix:after {
