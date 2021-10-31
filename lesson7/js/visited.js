@@ -15,12 +15,10 @@ const setNewDate = () => {
 };
 
 const calculateDays = () => {
-  let last = localStorage.getItem("visitedLast");
-  let now = localStorage.getItem("visitedToday");
-  // console.log(last)
-  // console.log(now)
+  let lastVisit = localStorage.getItem("visitedLast");
+  let nowVisit = localStorage.getItem("visitedToday");
 
-  let difference = now - last;
+  let difference = nowVisit - lastVisit;
 
   daysPassed = difference / (1000 * 3600 * 24);
   daysPassed = Math.round(daysPassed);
