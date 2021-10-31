@@ -148,12 +148,15 @@ td:hover {
 
 figure {
   text-align: center;
-  box-shadow: 10px 10px 5px grey;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  box-shadow: 10px 10px 5px  grey;
+  border-radius: 10px;
 }
 
 figure img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+
+figure:hover {
+  box-shadow: 0 0 50px #333;
 }
