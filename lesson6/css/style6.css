@@ -156,7 +156,3 @@ figure img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-
-figure:hover {
-  box-shadow: 0 0 50px #333;
-}
