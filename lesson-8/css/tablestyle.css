@@ -1,4 +1,10 @@
 table {
   max-width: 980px;
   margin: auto;
+  font-size: 35px;
+}
+
+caption {
+  background-color: #048ba8;
+  color: white;
 }
