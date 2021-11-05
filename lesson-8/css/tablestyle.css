@@ -5,7 +5,7 @@
 table {
   max-width: 980px;
   margin: auto;
-  font-size: 35px;
+  font-size: 30px;
   background-color: gray;
   box-shadow: 5px 10px 8px #888888;
 }
@@ -27,7 +27,7 @@ th {
   padding: 10px;
 }
 
-caption {
+.caption {
   background-color: #048ba8;
   color: black;
   padding: 20px;
