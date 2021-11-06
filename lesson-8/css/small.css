@@ -9,7 +9,7 @@
   }
   
   nav {
-    background-color: grey;
+    background-color: rgba(48, 175, 44, 0.466);
     font-family: Verdana, sans-serif;
   }
   
@@ -28,7 +28,7 @@
   }
   
   .active {
-    background-color: rgb(49, 110, 49);
+    background-color: red;
     color: white;
   }
 
