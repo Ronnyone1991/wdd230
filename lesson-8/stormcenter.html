@@ -63,6 +63,24 @@
           <label>Hurracain<input type="radio" name="stormType" value="Hurracain"></label>
           <label>Thunderstorm<input type="radio" name="stormType" value="Thunderstorm"></label>
           <label>Tornado<input type="radio" name="stormType" value="Tornado"></label>
+          <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+			<input type="range" id="rating" value="4" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+			<span id="ratingvalue">4</span>
+		</label>
+
+		<datalist id="tickmarks">
+			<option value="0">
+			<option value="1">
+			<option value="2">
+			<option value="3">
+			<option value="4">
+			<option value="5">
+			<option value="6">
+			<option value="7">
+			<option value="8">
+			<option value="9">
+			<option value="10">
+		</datalist>
         </fieldset>
       </form>
     </main>
@@ -104,5 +122,6 @@
       </div>
     </footer>
     <script src="../lesson-8/js/date.js"></script>
+    <script src="../lesson-8/js/rating.js"></script>
   </body>
 </html>
