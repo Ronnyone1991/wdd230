@@ -68,10 +68,24 @@
     border-radius: 10px;
   }
 
-  form label.top input, form select, form div {
+  form label.top input, form select {
     display: block;
     padding: .4rem;
     border-radius: 5px;
+  }
+
+  form label.top input:required {
+    border-left: orangered solid 6px;
+  }
+
+  form label.top input:required:valid {
+    border-left: yellowgreen solid 6px;
+  }
+
+  form div {
+    display: block;
+    padding-top: 2rem;
+    margin-left: 3px;
   }
 
   form label {
@@ -93,6 +107,18 @@
     padding-right: 1rem;
     padding-top: .2rem;
     padding-bottom: .2rem;
+  }
+
+  form label.stm {
+    padding: .5rem;
+  }
+
+  form label.flexly input {
+    display: block;
+  }
+
+  form label.flexly span {
+    text-align: center;
   }
   
   /*----- Clearfix: Force an Element not to collapse -----*/
