@@ -56,14 +56,14 @@
         </fieldset>
         <fieldset>
           <legend>Storm Search</legend>
-          <label>Storm Date<input type="date"></label>
+          <label class="dta">Storm Date<input type="date"></label>
           <div>Storm Type</div>
           <label class="stm">Flas Flood<input type="radio" name="stormType" value="Flash Flood"></label>
           <label class="stm">Hail<input type="radio" name="stormType" value="Hail"></label>
           <label class="stm" >Hurracain<input type="radio" name="stormType" value="Hurracain"></label>
           <label class="stm">Thunderstorm<input type="radio" name="stormType" value="Thunderstorm"></label>
           <label class="stm">Tornado<input type="radio" name="stormType" value="Tornado"></label>
-          <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+          <label class="flexly" for="rating"><div>Storm Severity: &nbsp;&nbsp;&nbsp;</div>
 			<input type="range" id="rating" value="4" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
 			<span id="ratingvalue">4</span>
 		</label>
@@ -81,7 +81,7 @@
 			<option value="9">
 			<option value="10">
 		</datalist>
-    <label>Storm Region
+    <label class="stm">Storm Region
       <select>
         <option value="">Select Region</option>
         <option value="preston">Preston</option>
@@ -93,7 +93,10 @@
     <label>Yes<input type="radio" name="dangerous" value="yes"></label>
     <label>Maybe<input type="radio" name="dangerous" value="maybe"></label>
     <label>No<input type="radio" name="dangerous" value="no"></label>
-    <input type="submit" value="Find storm">
+    <label class="stm">
+      <textarea name="comment" rows="8" cols="35" placeholder="additonal comments"></textarea>
+    </label>
+    <input type="submit" value="Find storm" class="botton">
       </form>
     </main>
     <footer>
