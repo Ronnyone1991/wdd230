@@ -45,9 +45,26 @@
     </header>
     <main>
       <h1 class="stormheading">Storm Center</h1>
-      <from>
-
-      </from>
+      <form method="get" action="">
+        <fieldset>
+          <legend>Applican Information</legend>
+          <label>First Name*<input type="text" name="fname" required></label>
+          <label>Last Name*<input type="text" name="lname" required></label>
+          <label>Email<input type="email" name="email" placeholder="somemail@gamil.com"></label>
+          <label>Phone Number*<input type="tel" name="phone" required></label>
+          <label>ZIP code*<input type="number" name="zip" required></label>
+        </fieldset>
+        <fieldset>
+          <legend>Storm Search</legend>
+          <label>Storm Date<input type="date"></label>
+          <div>Storm Type</div>
+          <label>Flas Flood<input type="radio" name="stormType" value="Flash Flood"></label>
+          <label>Hail<input type="radio" name="stormType" value="Hail"></label>
+          <label>Hurracain<input type="radio" name="stormType" value="Hurracain"></label>
+          <label>Thunderstorm<input type="radio" name="stormType" value="Thunderstorm"></label>
+          <label>Tornado<input type="radio" name="stormType" value="Tornado"></label>
+        </fieldset>
+      </form>
     </main>
     <footer>
       <div id="map">
