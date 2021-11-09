@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+section {
+  background-color: lightskyblue;
+}
+
+h1, h2 {
+  font-family: "Mochiy Pop One", sans-serif;
+  color: blue;
+}

@@ -10,9 +10,10 @@ fetch(requestURL)
     prophets.forEach((prophet) => {
       let card = document.createElement("section");
       let h2 = document.createElement("h2");
+      let img = document.createElement("img");
       let dob = document.createElement("p");
       let pob = document.createElement("p");
-      let img = document.createElement("img");
+      
 
       h2.textContent = `${prophet.name} ${prophet.lastname}`;
       dob.textContent = `Date of Birth: ${prophet.birthdate}`;
@@ -27,6 +28,6 @@ fetch(requestURL)
       card.appendChild(dob);
       card.appendChild(pob);
       card.appendChild(img);
-      document.querySelector(".cards").appendChild(card);
+      document.querySelector("div.cards").appendChild(card);
     });
   });
