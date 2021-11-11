@@ -80,8 +80,4 @@ footer {
     grid-gap: 10px;
     text-align: center;
   }
-  .cards img {
-    width: 250px;
-    height: 300px;
-  }
 }
