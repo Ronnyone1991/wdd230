@@ -45,22 +45,20 @@ footer {
   text-align: center;
   background-color: #7A8450;
   font-size: 1.5em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 25em) {
   .cards {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
     text-align: center;
   }
-  .cards img {
-    width: 200px;
-    height: 250px;
-  }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 32.5em) {
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -73,11 +71,15 @@ footer {
   }
 }
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 64em){
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
     text-align: center;
+  }
+  .cards img {
+    width: 200px;
+    height: 250px;
   }
 }
