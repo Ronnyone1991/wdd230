@@ -28,6 +28,6 @@ fetch(requestURL)
       card.appendChild(dob);
       card.appendChild(pob);
       card.appendChild(img);
-      document.querySelector("div.cards").appendChild(card);
+      document.querySelector(".cards").appendChild(card);
     });
   });
