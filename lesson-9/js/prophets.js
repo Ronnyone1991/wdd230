@@ -1,11 +1,12 @@
-const requestURL = "https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json";
+const requestURL =
+  "https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json";
 
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-     console.table(jsonObject); // temporary checking for valid response and data parsing
+    console.table(jsonObject); // temporary checking for valid response and data parsing
     const prophets = jsonObject["prophets"];
     prophets.forEach((prophet) => {
       let card = document.createElement("section");
@@ -13,7 +14,6 @@ fetch(requestURL)
       let img = document.createElement("img");
       let dob = document.createElement("p");
       let pob = document.createElement("p");
-      
 
       h2.textContent = `${prophet.name} ${prophet.lastname}`;
       dob.textContent = `Date of Birth: ${prophet.birthdate}`;
