@@ -1,0 +1,165 @@
+@media only screen and (min-width: 20em) {
+   
+  nav button {
+    margin: 0.2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+  }
+  
+  nav {
+    background-color: rgba(48, 175, 44, 0.466);
+    font-family: Verdana, sans-serif;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 0.8rem;
+    text-decoration: none;
+    color: whitesmoke;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  
+  .active {
+    background-color: red;
+    color: white;
+  }
+
+  nav ul li a:hover {
+    background-color: rgb(97, 61, 61);
+    color: whitesmoke;
+  }
+
+  nav ul.hide {
+    display: none;
+  }
+
+  footer img {
+    width: 150px;
+    height: 100px;
+    padding-top: 1.5rem;
+  }
+
+  #social {
+    padding-bottom: 1.5rem;
+  }
+
+  #summary {
+    font-size: 1rem;
+    position: relative;
+    margin-top: 80px;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  form fieldset {
+    margin: 2rem;
+    border: 2px solid forestgreen;
+    border-radius: 10px;
+  }
+
+  form label.top input, form select {
+    display: block;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+
+  form label.top {
+    margin-left: -1.1rem;
+  }
+
+  form label.top input:required {
+    border-left: orangered solid 6px;
+  }
+
+  form label.top input:required:valid {
+    border-left: yellowgreen solid 6px;
+  }
+
+  form label.top input {
+    border: black solid 1px;
+    width: 15rem;
+  }
+
+  form div {
+    display: block;
+    padding-top: 1.8rem;
+    margin-left: 3px;
+  }
+
+  form label.stm {
+    display: block;
+    padding: .5rem;
+  }
+
+  form label.top {
+    display: block;
+    padding: 1.5rem;
+  }
+
+  form legend {
+    background-color: forestgreen;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+  }
+
+  form label.flexly input {
+    display: block;
+  }
+
+  form label.dta input {
+    display: block;
+    padding: .7rem;
+    width: 16rem;
+  }
+
+  form label select {
+    width: 18rem;
+    padding: .7rem;
+  }
+
+  textarea {
+    border-radius: 5px;
+  }
+
+  .botton {
+    display: block;
+    border: none;
+    background-color: sienna;
+    color: white;
+    margin-top: .8rem;
+    width: 100%;
+    max-width: 20rem;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 15px;
+  }
+
+  .botton:hover {
+    background-color: yellowgreen;
+    color: black;
+    font-weight: bold;
+  }
+  
+  /*----- Clearfix: Force an Element not to collapse -----*/
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
