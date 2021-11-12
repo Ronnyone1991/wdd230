@@ -81,14 +81,8 @@ footer li {
   padding-bottom: 1em;
 }
 
-footer span {
-  text-align: center;
-}
-
-span {
-  font-size: 30px;
+footer {
   color: white;
-  text-align: center;
 }
 
 .material-icons {
