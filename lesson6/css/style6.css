@@ -5,7 +5,7 @@
 
 img {
   max-width: 100%;
-  height:  auto;
+  height: auto;
 }
 
 main {
@@ -36,7 +36,8 @@ footer {
   background-color: #440d0f;
 }
 
-header h1, h2 {
+header h1,
+h2 {
   padding-left: 5px;
 }
 
@@ -80,6 +81,10 @@ footer li {
   padding-bottom: 1em;
 }
 
+footer {
+  color: white;
+}
+
 .material-icons {
   color: white;
 }
@@ -120,10 +125,12 @@ footer li {
   font-size: 30px;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: thin solid #333;
-	border-collapse: collapse;
-	padding: 5px;
+  border-collapse: collapse;
+  padding: 5px;
 }
 
 td {
@@ -147,7 +154,7 @@ td:hover {
 
 figure {
   text-align: center;
-  box-shadow: 10px 10px 5px  grey;
+  box-shadow: 10px 10px 5px grey;
   border-radius: 10px;
 }
 
