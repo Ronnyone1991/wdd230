@@ -1,3 +1,6 @@
+:root {
+}
+
 table {
   font-family: Ubuntu, sans-serif;
   max-width: 960px;
@@ -6,6 +9,10 @@ table {
 
 tfoot :first-child {
   background-color: #7fb9c2;
+  color: black;
+}
+
+thead :first-child {
   color: black;
 }
 
@@ -21,4 +28,8 @@ td {
 #important {
   background-color: #628ca6;
   color: white;
+}
+
+span {
+  font-style: italic;
 }
