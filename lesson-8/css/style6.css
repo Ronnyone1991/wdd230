@@ -34,7 +34,7 @@ main {
 
 footer {
   background-color: #440d0f;
-  color: yellowgreen;
+  color: yellowgreen !important;
 }
 
 header h1,
