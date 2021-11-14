@@ -8,16 +8,16 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject); // temporary checking for valid response and data parsing
     const prophet = jsonObject["prophets"];
-    for (var i = 0; i < prophet.lenght; i++) {
+    prophet.forEach((prophet) => {
       let card = document.createElement("section");
       let h2 = document.createElement("h2");
       let img = document.createElement("img");
-      let dob = document.createElement("p");
-      let pob = document.createElement("p");
+      let birthday = document.createElement("p");
+      let birthplace = document.createElement("p");
 
       h2.textContent = `${prophet.name} ${prophet.lastname}`;
-      dob.textContent = `Date of Birth: ${prophet.birthdate}`;
-      pob.textContent = `Place of Birth: ${prophet.birthplace}`;
+      birthday.textContent = `Date of Birth: ${prophet.birthdate}`;
+      birthplace.textContent = `Place of Birth: ${prophet.birthplace}`;
       img.setAttribute("src", prophet.imageurl);
       img.setAttribute(
         "alt",
@@ -25,9 +25,9 @@ fetch(requestURL)
       );
 
       card.appendChild(h2);
-      card.appendChild(dob);
-      card.appendChild(pob);
+      card.appendChild(birthday);
+      card.appendChild(birthplace);
       card.appendChild(img);
       document.querySelector(".cards").appendChild(card);
-    }
+    });
   });
