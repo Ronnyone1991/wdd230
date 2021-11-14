@@ -108,14 +108,15 @@
   }
 
   form legend {
-    background-color: forestgreen;
-    color: white;
+    background-color: yellowgreen;
+    color: black;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
+    font-weight: bold;
   }
 
   form label.flexly input {
