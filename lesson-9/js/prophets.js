@@ -8,7 +8,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject); // temporary checking for valid response and data parsing
     const prophet = jsonObject["prophets"];
-    prophet.forEach((prophet) => {
+    for (var i = 0; i < prophet.lenght; i++) {
       let card = document.createElement("section");
       let h2 = document.createElement("h2");
       let img = document.createElement("img");
@@ -29,5 +29,5 @@ fetch(requestURL)
       card.appendChild(pob);
       card.appendChild(img);
       document.querySelector(".cards").appendChild(card);
-    });
+    }
   });
