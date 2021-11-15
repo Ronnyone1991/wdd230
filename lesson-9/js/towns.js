@@ -8,11 +8,11 @@ fetch(requestURL)
     console.table(jsonObject);
     const town = jsonObject["towns"];
     const listTown = ["Soda Spring", "Fish Heaven", "Preston"];
-    for (var i = 0; i < town.lenght; ++i);
+    for (var count = 0; count < town.lenght; count += 1);
     {
-      if (listTown.includes(town[i].name)) {
+      if (listTown.includes(town[count].name)) {
         let imgTown;
-        switch (town[i].name) {
+        switch (town[count].name) {
           case "Soda Spring":
             imgTown = "./images/sodaspring.jpg";
             break;
@@ -31,12 +31,12 @@ fetch(requestURL)
         let yearf = document.createElement("p");
         let population = document.createElement("p");
 
-        h1.textContent = `${town[i].name}`;
-        h2.textContent = `${town[i].motto} `;
-        yearf.textContent = `Year Founded: ${town[i].yearFounded}`;
-        population.textContent = `Current Population: ${town[i].currentPopulation}`;
+        h1.textContent = `${town[count].name}`;
+        h2.textContent = `${town[count].motto} `;
+        yearf.textContent = `Year Founded: ${town[count].yearFounded}`;
+        population.textContent = `Current Population: ${town[count].currentPopulation}`;
         img.setAttribute("src", imgTown);
-        img.setAttribute("alt", `${town[i].name} `);
+        img.setAttribute("alt", `${town[count].name} `);
         townjson.appendChild(h1);
         townjson.appendChild(h2);
         townjson.appendChild(yearf);
