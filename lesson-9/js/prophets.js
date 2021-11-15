@@ -12,9 +12,9 @@ fetch(requestURL)
       // create elements
       let card = document.createElement("section");
       let h2 = document.createElement("h2");
-      let img = document.createElement("img");
       let birthday = document.createElement("p");
       let birthplace = document.createElement("p");
+      let img = document.createElement("img");
 
       // add JSON data and display it to the user
       h2.textContent = `${prophet.name} ${prophet.lastname}`;

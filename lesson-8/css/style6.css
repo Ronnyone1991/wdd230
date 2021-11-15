@@ -21,6 +21,13 @@ main {
   border-radius: 5px;
 }
 
+.notice {
+  text-align: center;
+  background-color: yellowgreen;
+  color: black;
+  border-radius: 10px;
+}
+
 #summary li {
   list-style-type: none;
   padding: 3px;
