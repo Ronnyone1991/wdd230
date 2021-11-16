@@ -8,7 +8,7 @@ fetch(requestURL)
     console.table(jsonObject);
     const town = jsonObject["towns"];
     const listTown = ["Soda Spring", "Fish Heaven", "Preston"];
-    for (var count = 0; count < town.lenght; count += 1);
+    for (var count = 0; count < town.lenght; count++);
     {
       if (listTown.includes(town[count].name)) {
         let imgTown;
