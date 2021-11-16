@@ -7,8 +7,8 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject); // temporary checking for valid response and data parsing
-    const prophet = jsonObject["prophets"];
-    prophet.forEach((prophet) => {
+    const president = jsonObject["prophets"];
+    president.forEach((president) => {
       // create elements
       let card = document.createElement("section");
       let h2 = document.createElement("h2");
@@ -17,13 +17,13 @@ fetch(requestURL)
       let img = document.createElement("img");
 
       // add JSON data and display it to the user
-      h2.textContent = `${prophet.name} ${prophet.lastname}`;
-      birthday.textContent = `Date of Birth: ${prophet.birthdate}`;
-      birthplace.textContent = `Place of Birth: ${prophet.birthplace}`;
-      img.setAttribute("src", prophet.imageurl);
+      h2.textContent = `${president.name} ${president.lastname}`;
+      birthday.textContent = `Date of Birth: ${president.birthdate}`;
+      birthplace.textContent = `Place of Birth: ${president.birthplace}`;
+      img.setAttribute("src", president.imageurl);
       img.setAttribute(
         "alt",
-        `${prophet.name} ${prophet.lastname} - ${prophet.order}`
+        `${president.name} ${president.lastname} - ${president.order}`
       );
 
       card.appendChild(h2);
