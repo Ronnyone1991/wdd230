@@ -55,15 +55,17 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
+  section img {
+    max-width: 100%;
+    height: auto;
   }
 
-  section img {
-    width: 250px;
-    height: 300px;
+  section {
+    background-color: yellowgreen;
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   figure:hover {
