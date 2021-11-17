@@ -44,13 +44,13 @@ footer {
 }
 
 .number {
-  color: yellowgreen;
+  color: white;
 }
 
 header h1,
 h2 {
   padding-left: 5px;
-  color: yellowgreen;
+  color: white;
 }
 
 header {
@@ -94,11 +94,11 @@ footer li {
 }
 
 footer {
-  color: yellowgreen;
+  color: white;
 }
 
 .material-icons {
-  color: yellowgreen;
+  color: white;
 }
 
 .fa {
