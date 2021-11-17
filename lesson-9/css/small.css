@@ -162,4 +162,9 @@
     display: table;
     clear: both;
   }
+
+  .towns {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }

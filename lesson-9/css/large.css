@@ -60,12 +60,17 @@
     height: auto;
   }
 
+  .towns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+
   section {
     background-color: yellowgreen;
     margin-top: 10px;
-    text-align: center;
-    padding-left: 5px;
-    padding-right: 5px;
+    text-align: center !important;
+    padding: 0 10px 10px 10px; 
   }
 
   figure:hover {
