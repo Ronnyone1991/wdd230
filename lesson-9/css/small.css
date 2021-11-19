@@ -166,5 +166,16 @@
   .towns {
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+
+  .towns img {
+    border-radius: 10px;
+  }
+
+  .towns section {
+    background-color: yellowgreen;
+    color: black;
+    text-align: center;
   }
 }
