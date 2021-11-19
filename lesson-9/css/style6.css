@@ -183,10 +183,10 @@ figure img {
 }
 
 .welcome {
-  background-color: green;
+  background-color: yellowgreen;
   text-align: center;
   border-radius: 15px;
-  color: whitesmoke;
+  color: black;
   padding-top: 30px;
   padding-bottom: 30px;
   text-decoration: underline;
