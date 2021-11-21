@@ -55,24 +55,6 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  section img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .towns {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 15px;
-  }
-
-  section {
-    background-color: yellowgreen;
-    margin-top: 10px;
-    text-align: center !important;
-    padding: 0 10px 10px 10px; 
-  }
-
   figure:hover {
     box-shadow: 0 0 50px #333;
   }

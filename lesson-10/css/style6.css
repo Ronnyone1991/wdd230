@@ -166,29 +166,6 @@ figure img {
   border-top-right-radius: 10px;
 }
 
-.notice {
-  background-color: yellowgreen;
-  color: black;
-  text-align: center;
-  border-radius: 10px;
-}
-
-.towns section {
-  border-radius: 10px;
-  color: black;
-}
-
-.towns h3 {
-  font-style: italic;
-}
-
-.welcome {
-  background-color: yellowgreen;
-  text-align: center;
-  border-radius: 15px;
-  color: black;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-decoration: underline;
-  font-size: 3rem;
+.hero img {
+  border: none !important;
 }
