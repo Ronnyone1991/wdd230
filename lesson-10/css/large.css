@@ -1,0 +1,79 @@
+@media only screen and (min-width: 62rem) {
+  nav button {
+    display: none;
+  }
+
+  nav ul.hide {
+    display: block;
+  }
+
+  nav ul {
+    margin-left: 2%;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: solid rgba(0, 0, 0, 0.3);
+    padding: 0.6rem 1rem;
+  }
+
+  footer img {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    padding-top: 25px;
+    margin-left: 2rem;
+  }
+
+  #social {
+    position: relative;
+    margin-left: 800px;
+    padding-top: 10px;
+  }
+
+  th {
+    font-size: 2.5rem;
+  }
+
+  #summary {
+    position: absolute;
+    z-index: 1;
+    margin-top: -300px;
+    margin-bottom: 88px;
+    margin-left: 20px;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  section img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .towns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+
+  section {
+    background-color: yellowgreen;
+    margin-top: 10px;
+    text-align: center !important;
+    padding: 0 10px 10px 10px; 
+  }
+
+  figure:hover {
+    box-shadow: 0 0 50px #333;
+  }
+} /*end large */
