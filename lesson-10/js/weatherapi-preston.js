@@ -76,7 +76,6 @@ fetch(forecastURL)
       if (Now == 18) {
         let weatherOfweek = fromKtoF(jsObject.list[i].main.temp);
         weeklyTemp[count].innerHTML = weatherOfweek + "°F";
-
         let imagesrc =
           "https://openweathermap.org/img/w/" +
           jsObject.list[i].weather[0].icon +
@@ -85,9 +84,9 @@ fetch(forecastURL)
         count++;
       }
     });
-    for (i = today, geo = 0; geo < imagesOfweek.length; geo++, i++) {
-      if (i > 6) {
-        i = 0;
+    for (inter = today, geo = 0; geo < imagesOfweek.length; geo++, intert++) {
+      if (inter > 6) {
+        inter = 0;
       }
       imagesOfweek[j].setAttribute(
         "alt",
