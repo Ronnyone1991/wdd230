@@ -28,8 +28,10 @@ main {
 
 #five {
   float: right;
-  width: 350px;
-  height: 184px;
+  width: 400px;
+  height: 300px;
+  margin-left: 3px;
+  border-radius: 5px;
 }
 
 footer {
