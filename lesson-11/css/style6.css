@@ -175,3 +175,8 @@ figure img {
 .openw {
   color: white;
 }
+
+nav ul li a:hover {
+    background-color: yellowgreen;
+    color: black;
+  }

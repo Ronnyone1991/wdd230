@@ -31,11 +31,6 @@
     color: white;
   }
 
-  nav ul li a:hover {
-    background-color: rgb(97, 61, 61);
-    color: whitesmoke;
-  }
-
   nav ul.hide {
     display: none;
   }
@@ -154,6 +149,21 @@
     background-color: yellowgreen;
     color: black;
     font-weight: bold;
+  }
+
+  .towns {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
+  }
+
+  .towns section {
+    border-radius: 10px;
+
+  }
+
+  .towns h3 {
+    font-style: italic !important;
   }
 
   /*----- Clearfix: Force an Element not to collapse -----*/
