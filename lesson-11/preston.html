@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../lesson-10/images/favicon.ico" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../lesson-10/css/small.css" />
+    <link rel="stylesheet" href="../lesson-10/css/medium.css" />
+    <link rel="stylesheet" href="../lesson-10/css/large.css" />
+    <link rel="stylesheet" href="../lesson-10/css/style6.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <title>Preston Weather</title>
+  </head>
+  <body>
+    <header>
+      <div id="friday"></div>
+      <img src="..//lesson5/images/logo-site.png" alt="logo of the site" />
+      <h1>skyweather</h1>
+      <h2><i>knowing the weather for a better living</i></h2>
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+          <li><a href="../lesson-9/index.html">Home</a></li>
+          <li>
+            <a href="../lesson6/preston-6.html" class="active">Preston</a>
+          </li>
+          <li><a href="preston-5.html">Soda Spring</a></li>
+          <li><a href="preston-5.html">Fish Heaven</a></li>
+          <li><a href="../lesson-8/stormcenter.html">Storm Center</a></li>
+          <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Preston Idaho</h2>
+      <picture class="hero">
+        <!--the 800 image is for screen sizes of 800 pixels, the 500 image is for screen sizes of 500 pixels, the 200 image is for screen sizes of 200 pixels-->
+        <!-- the original photo is for screen sizes beyond of 800 pixels-->
+        <source
+          media="(max-width: 200px)"
+          srcset="../lesson-10/images/image200.jpg"
+        />
+        <source
+          media="(max-width: 500px)"
+          srcset="../lesson-10/images/image500.jpg"
+        />
+        <source
+          media="(max-width: 800px)"
+          srcset="../lesson-10/images/imae800.jpg"
+        />
+        <img
+          src="../lesson-10/images/image_original.jpeg"
+          alt="calm"
+        />
+      </picture>
+      <section id="summary">
+        <h2 class="weathersummary">Weather Summary</h2>
+        <ul>
+          <li id="weatherdesc"></li>
+          <li id="temperature"></li>
+          <li id="windshill"></li>
+          <li id="humidity"></li>
+          <li id="windspeed"></li>
+        </ul>
+      </section>
+      <section id="forcast">
+        <h2>Five Days Forcast</h2>
+        <table>
+          <thead>
+            <tr>
+              <th class="dayWeek">Monday</th>
+              <th class="dayWeek">Tuesday</th>
+              <th class="dayWeek">Wednesday</th>
+              <th class="dayWeek">Thursday</th>
+              <th class="dayWeek">Friday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <img
+                  class="imgweek"
+                  src=""
+                  alt="daily forecast info"
+                /><br /><span class="tempweek"></span>
+              </td>
+              <td>
+                <img
+                  class="imgweek"
+                  src=""
+                  alt="daily forecast info"
+                /><br /><span class="tempweek"></span>
+              </td>
+              <td>
+                <img
+                  class="imgweek"
+                  src=""
+                  alt="daily forecast info"
+                /><br /><span class="tempweek"></span>
+              </td>
+              <td>
+                <img
+                  class="imgweek"
+                  src=""
+                  alt="daily forecast info"
+                /><br /><span class="tempweek"></span>
+              </td>
+              <td>
+                <img
+                  class="imgweek"
+                  src=""
+                  alt="daily forecast info"
+                /><br /><span class="tempweek"></span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Home of Napoleon Dynamite.</h3>
+        <img
+          src="../lesson-10/images/preston.jpg"
+          alt="a photo of Franklin County Courthouse, Preston, Idaho. With war memorials under construction"
+          id="five"
+        />
+        <p>
+          Preston, Idaho is one of the best kept secrets of the West. Nestled on
+          the Idaho side of beautiful Cache Valley and surrounded by towering
+          mountains on each side, it is unbeatable for recreation opportunities,
+          has that small town feeling, and is close to whatever you need. It is
+          one of the safest places to live in the State of Idaho and in Cache
+          Valley. Mixing glorious natural scenery with compelling history, this
+          driving route follows the paths taken by the region’s earliest
+          European visitors in the first decades of the 19th century. Aptly the
+          Pioneer Historic Byway begins in the village of Franklin, Idaho’s
+          earliest permanent European-American settlement, before heading on a
+          rough northeasterly bearing through awe-inspiring terrain. Begin with
+          a look around the Franklin Historic District, and on your journey
+          you’ll discover the Bear River Massacre Site (more next), the vestiges
+          of Idaho’s earliest grist mill, genuine wheel ruts on the Oregon
+          Trail, a Mormon ghost town and almost constant majestic natural
+          scenery.
+        </p>
+        <p>
+          The cult 2004 comedy Napoleon Dynamite is a snapshot of growing up in
+          southeast Idaho. There’s talk of Shoshone arrowheads and catching
+          bass, while Napoleon takes part in an FFA event at the county fair and
+          Grandma Dynamite even goes on an ATV ride in the St. Anthony sand
+          dunes. But Preston was the main filming location, and spots like
+          Preston High School and numerous stores downtown make repeated
+          appearances. If you want to retrace the movie’s steps you can locate
+          Napoleon, Trish, Pedro and Summer’s house, and maybe grab some tots
+          and a Napoleon Dynamite t-shirt downtown.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <div id="map">
+        <img src="../lesson-10/images/map-image.jpg" alt="a picture of a map" />
+      </div>
+      <div id="social">
+        <h3>Contact Information</h3>
+        <ul>
+          <li>
+            <span class="material-icons">settings_phone</span>+1 800-000-001
+          </li>
+          <li>
+            <span class="material-icons">mark_as_unread</span
+            >Skyweather@gmail.com
+          </li>
+          <li><span class="material-icons">fax</span> +1 323 555 1234</li>
+        </ul>
+        <a
+          href="https://www.facebook.com/"
+          class="fa fa-facebook"
+          target="_blank"
+        ></a>
+        <a
+          href="https://twitter.com/?lang=us"
+          class="fa fa-twitter"
+          target="_blank"
+        ></a>
+        <a
+          href="https://www.instagram.com/"
+          class="fa fa-instagram"
+          target="_blank"
+        ></a>
+      </div>
+      <div class="info">
+        <span
+          >&copy; BYU - Idaho | Ronny Rodriguez | API provided by
+          <a href="https://openweathermap.org/" class="openw">OpenWeatherMap</a>
+          |
+        </span>
+        <span id="date"></span>
+      </div>
+    </footer>
+    <script src="../lesson-10/js/googlefontloader.js"></script>
+    <script src="../lesson-10/js/date.js"></script>
+    <script src="../lesson-10/js/weatherapi-preston.js"></script>
+  </body>
+</html>

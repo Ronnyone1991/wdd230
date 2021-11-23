@@ -1,0 +1,40 @@
+@media only screen and (min-width: 32.5em) {
+  #social {
+    margin-left: 500px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  footer img {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    padding-top: 25px;
+    margin-left: 20px;
+  }
+
+  th {
+  font-size: 1rem;
+}
+
+#summary {
+  position: absolute;
+  width: 200px;
+  height: 240px;
+  margin-top: -280px;
+  margin-bottom: 90px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.towns {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+} /*end mediun*/
