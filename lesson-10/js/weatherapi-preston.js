@@ -84,11 +84,11 @@ fetch(forecastURL)
         count++;
       }
     });
-    for (inter = today, geo = 0; geo < imagesOfweek.length; geo++, intert++) {
+    for ( let inter = today, geo = 0; geo < imagesOfweek.length; geo++, inter++) {
       if (inter > 6) {
         inter = 0;
       }
-      imagesOfweek[j].setAttribute(
+      imagesOfweek[geo].setAttribute(
         "alt",
         `An image for every weather condition`
       );
