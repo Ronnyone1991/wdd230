@@ -84,7 +84,7 @@ fetch(forecastURL)
         count++;
       }
     });
-    for (inter = today, geo = 0; geo < imagesOfweek.length; geo++, intert++) {
+    for (inter = today, geo = 0; geo < imagesOfweek.length; geo++, inter++) {
       if (inter > 6) {
         inter = 0;
       }
