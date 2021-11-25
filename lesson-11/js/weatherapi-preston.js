@@ -88,7 +88,7 @@ fetch(forecastURL)
       if (inter > 6) {
         inter = 0;
       }
-      imagesOfweek[j].setAttribute(
+      imagesOfweek[geo].setAttribute(
         "alt",
         `An image for every weather condition`
       );
