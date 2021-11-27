@@ -63,4 +63,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .towns h2 {
+    text-align: center !important;
+  }
 } /*end large */
