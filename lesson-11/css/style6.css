@@ -172,11 +172,11 @@ figure img {
   border: none !important;
 }
 
-.openw {
-  color: white;
-}
-
 nav ul li a:hover {
     background-color: yellowgreen;
     color: black;
   }
+
+.towns h2 {
+  font-style: italic;
+}
