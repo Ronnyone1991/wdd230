@@ -26,13 +26,6 @@ main {
   padding: 3px;
 }
 
-#five {
-  float: right;
-  width: 400px;
-  height: 300px;
-  margin-left: 3px;
-  border-radius: 5px;
-}
 
 footer {
   background-color: #440d0f;

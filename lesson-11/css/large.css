@@ -67,4 +67,12 @@
   .towns h2 {
     text-align: center !important;
   }
+
+  #five {
+  float: right;
+  width: 400px;
+  height: 300px;
+  margin-left: 3px;
+  border-radius: 5px;
+}
 } /*end large */
