@@ -27,8 +27,8 @@
   }
 
   .active {
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: brown;
   }
 
   nav ul.hide {
