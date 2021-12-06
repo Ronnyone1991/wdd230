@@ -44,7 +44,7 @@ fetch(forecastURL)
     let dayOfTheWeek;
     let days = document.querySelectorAll(".dayWeek");
     let DaysOfweek = {
-      0: "Sunady",
+      0: "Sunday",
       1: "Monday",
       2: "Tuesday",
       3: "Wednesay",
@@ -90,7 +90,7 @@ fetch(forecastURL)
       }
       imagesOfweek[geo].setAttribute(
         "alt",
-        `An image for every weather condition`
+        'An image for ' + DaysOfweek[geo+1] + ' weather condition'
       );
     }
   });
