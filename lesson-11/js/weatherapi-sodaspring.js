@@ -90,7 +90,7 @@ fetch(forecastURL)
       }
       imagesOfweek[geo].setAttribute(
         "alt",
-        `An image for every weather condition`
+        'An image for ' + DaysOfweek[geo+1] + ' weather condition'
       );
     }
   });
