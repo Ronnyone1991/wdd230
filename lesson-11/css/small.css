@@ -105,6 +105,7 @@
   form legend {
     background-color: yellowgreen;
     color: black;
+    font-weight: 800;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     padding-left: 1rem;
