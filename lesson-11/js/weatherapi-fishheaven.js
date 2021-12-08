@@ -39,7 +39,7 @@ fetch(forecastURL)
     }
 
     const currentDate = new Date(jsObject.list[0].dt_txt);
-    const today = currentDate.getDay();
+    var today = currentDate.getDay();
     let int = today;
     let dayOfTheWeek;
     let days = document.querySelectorAll(".dayWeek");
@@ -90,7 +90,7 @@ fetch(forecastURL)
       }
       imagesOfweek[geo].setAttribute(
         "alt",
-        'An image for ' + DaysOfweek[geo+1] + ' weather condition'
+        'An image for ' + DaysOfweek[geo+today] + ' weather condition'
       );
     }
   });
