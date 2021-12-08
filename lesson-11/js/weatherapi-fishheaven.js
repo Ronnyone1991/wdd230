@@ -88,9 +88,13 @@ fetch(forecastURL)
       if (inter > 6) {
         inter = 0;
       }
+      var index = geo + today;
+      if (index > 6) {
+        index = 0;
+      }
       imagesOfweek[geo].setAttribute(
         "alt",
-        'An image for ' + DaysOfweek[geo+today] + ' weather condition'
+        'An image for ' + DaysOfweek[index] + ' weather condition'
       );
     }
   });
