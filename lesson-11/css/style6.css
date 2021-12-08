@@ -177,10 +177,22 @@ nav ul li a:hover {
   text-align: center;
   background-color: brown;
   color: white;
-  width: 80%;
+  width: 100%;
+  max-width: 30em;
   margin: auto;
+  margin-top: 20px;
   margin-bottom: 30px;
   padding-bottom: 5px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+
+#eventList {
+  list-style: none;
+  text-align: center;
+}
+
+#eventList li {
+  padding-bottom: 10px;
+  font-weight: 900;
 }
