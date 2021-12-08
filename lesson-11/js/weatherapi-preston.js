@@ -88,14 +88,18 @@ fetch(forecastURL)
       if (inter > 6) {
         inter = 0;
       }
+      var index = geo + today;
+      if (index > 6) {
+        index = 0;
+      }
       imagesOfweek[geo].setAttribute(
         "alt",
-        'An image for ' + DaysOfweek[geo+today] + ' weather condition'
+        'An image for ' + DaysOfweek[index] + ' weather condition'
       );
     }
   });
-
-// Display the new events list of Preston
+  
+// Display the new events of Preston
 const townsRequestURL =
   "https://byui-cit230.github.io/weather/data/towndata.json";
 
