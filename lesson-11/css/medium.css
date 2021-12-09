@@ -36,4 +36,8 @@
   display: grid;
   grid-template-columns: 1fr;
 }
+
+#eventSection {
+  width: 30rem;
+}
 } /*end mediun*/

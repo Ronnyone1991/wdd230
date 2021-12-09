@@ -193,4 +193,8 @@
   table {
     font-size: 10px;
   }
+
+  #eventSection {
+    width: 20rem;
+  }
 }
