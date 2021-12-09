@@ -61,6 +61,7 @@ footer h3 {
 
 footer {
   color: white;
+  margin-top: 30px;
 }
 
 footer ul {
@@ -177,9 +178,6 @@ nav ul li a:hover {
   text-align: center;
   background-color: brown;
   color: white;
-  width: 100%;
-  max-width: 30em;
-  margin: auto;
   margin-top: 20px;
   margin-bottom: 30px;
   padding-bottom: 5px;
@@ -188,12 +186,25 @@ nav ul li a:hover {
   border-top-right-radius: 10px;
 }
 
+#eventSection {
+  margin: 20px 0 20px 0;
+  background-color: white;
+  border-radius: 10px;
+  width: 40rem;
+  margin: auto;
+  box-shadow: 0 0 50px 0 black;
+}
+
 #eventList {
   list-style: none;
   text-align: center;
 }
 
 #eventList li {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   font-weight: 900;
+}
+
+#eventSection:hover {
+  transform: scale(1.1);
 }
