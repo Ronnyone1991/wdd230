@@ -32,6 +32,6 @@ if (!localStorage.getItem("visitedLast")) {
   setNewDate();
 }
 
-daysSinceLastVisit.innerHTML = "Last visit: " + PassedDays;
+daysSinceLastVisit.innerHTML = "Last visit to this page was " + PassedDays + ' days ago';
 
 localStorage.setItem("visitedLast", visitedToday.getTime());
