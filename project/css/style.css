@@ -1,1 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&family=Prompt:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&family=Prompt:wght@500&display=swap");
+body {
+  background-color: #f1faee;
+}
+
+* {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logobox {
+  width: 400px;
+  height: 400px;
+}
+
+header {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+
+footer {
+  font-family: "Bebas Neue", cursive;
+}
+
+.headerfooter {
+  background-color: #1d3557;
+  color: white;
+}
