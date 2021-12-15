@@ -67,5 +67,10 @@ footer a {
   font-size: 30px;
   letter-spacing: 1px;
 }
+
+#lastm {
+  font-size: 30px;
+  text-align: center;
+}
 }
 /*end large*/

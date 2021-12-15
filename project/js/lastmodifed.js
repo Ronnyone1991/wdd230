@@ -1,1 +1,2 @@
-document.getElementById('mod').innerHTML = new Date(document.lastModified);
+let hour = new Date(document.lastModified);
+document.getElementById("lastm").innerHTML = "Last update: " + hour;
