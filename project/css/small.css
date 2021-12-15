@@ -90,5 +90,13 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
 }
+
+figure {
+  margin: 15px 0px 15px 0px;
+}
+
+#photohead {
+  padding-left: 5px;
+}
 }
 /*end small*/
