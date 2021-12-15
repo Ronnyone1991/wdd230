@@ -48,5 +48,24 @@
 .social {
   text-align: center;
 }
+
+footer a {
+  padding-left: 15px;
+}
+
+.contact {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.contact span {
+  padding-left: 5px;
+}
+
+.social h3 {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
 }
 /*end large*/
