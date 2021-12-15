@@ -72,5 +72,13 @@ footer a {
   font-size: 30px;
   text-align: center;
 }
+
+.icon {
+  font-size: 45px;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
 }
 /*end large*/
