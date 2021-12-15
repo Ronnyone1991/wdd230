@@ -1,0 +1,54 @@
+@media only screen and (min-width: 18rem) {
+ nav button {
+  margin: 0.2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: white;
+}
+
+nav {
+  background-color: #457b9d;
+  font-family: Verdana, sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem;
+  text-decoration: none;
+  color: white;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a:hover {
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
+.active {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.desctitle {
+  font-size: 1.3rem;
+  text-align: center;
+}
+}
+/*end large*/

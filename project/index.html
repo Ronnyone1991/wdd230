@@ -4,21 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../project/css/style.css">
-    <link rel="stylesheet" href="../project/css/small.css">
-    <link rel="stylesheet" href="../project/css/medium.css">
-    <link rel="stylesheet" href="../project/css/large.css">
+    <link rel="stylesheet" href="../project/css/small.css" />
+    <link rel="stylesheet" href="../project/css/medium.css" />
+    <link rel="stylesheet" href="../project/css/large.css" />
+    <link rel="stylesheet" href="../project/css/style.css" />
     <title>Chammber's home page</title>
   </head>
   <body>
     <header class="headerfooter">
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+          <li><a href="../project/index.html">Home</a></li>
+          <li><a href="#">The city</a></li>
+          <li><a href="#">Join us</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
       <picture class="logobox">
-        <img src="../project/images/picture1.png" alt="caracas's chammber of comerce's logo">
-        <h1>caracas's chamber of comerce</h1>
-        <h1><em>promoting the development of trade, industry and services</em></h1>
-      </picture>
+        <img
+          src="../project/images/picture1.png"
+          alt="caracas's chammber of comerce's logo"
+        />
+        </picture>
+        <h1 class="titlemotto">caracas's chamber of comerce</h1>
+        <h1 class="titlemotto">
+          <em>promoting the development of trade, industry and services</em>
+        </h1>
     </header>
-    <main></main>
+    <main>
+      <div class="banner">
+        <figure>
+          <img src="../project/images/Paseo_de_los_Proceres.jpg" class="walk" alt="a picture of the walk of the heroes monument in the city of Caracas, Vnezuela">
+          <figcaption>Caracas, The City of Eternal Spring</figcaption>
+        </figure>
+      </div>
+        <h2 class="desctitle">A non-profit organization </h2>
+      <section></section>
+    </main>
     <footer class="headerfooter"></footer>
+    <script src="../project/js/responsive-menu.js"></script>
   </body>
 </html>

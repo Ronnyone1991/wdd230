@@ -1,0 +1,32 @@
+@media only screen and (min-width: 62rem) {
+   nav button {
+    display: none;
+  }
+
+  nav ul.hide {
+    display: block;
+  }
+
+  nav ul {
+    margin-left: 2%;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: solid rgba(0, 0, 0, 0.3);
+    padding: .6rem 1rem;
+  }
+
+  .desctitle {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+  }
+}
+/*end large*/

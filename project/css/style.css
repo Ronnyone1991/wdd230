@@ -2,11 +2,9 @@
 body {
   background-color: #f1faee;
 }
-
 * {
   margin: 0;
 }
-
 img {
   max-width: 100%;
   height: auto;
@@ -15,11 +13,19 @@ img {
 .logobox {
   width: 400px;
   height: 400px;
+  margin-left: 42.6%;
 }
 
 header {
   font-family: "Bebas Neue", cursive;
+  text-transform: uppercase;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.titlemotto {
   text-align: center;
+  letter-spacing: 2px;
 }
 
 footer {
@@ -29,4 +35,33 @@ footer {
 .headerfooter {
   background-color: #1d3557;
   color: white;
+}
+
+main {
+  max-width: 90%;
+  margin: auto;
+}
+
+.banner {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.walk {
+  border-radius: 3px;
+}
+
+p, figcaption {
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-family: 'Prompt', sans-serif;
+}
+
+.desctitle {
+  background-color: #1d3557;
+  color: white;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
