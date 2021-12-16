@@ -2,10 +2,11 @@
   .chamberview {
     display: grid;
     grid-template-columns: 300px 300px;
-    grid-gap: 120px;
+    grid-gap: 85px;
   }
 
   .activityone p {
     text-align: left;
   }
 }
+/*end medium*/
