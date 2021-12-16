@@ -94,18 +94,19 @@ footer a {
 
 .weather h2 {
   color: #1d3557;
-  border: 2px solid #1d3557;
-  border-radius: 15px;
+  border-bottom: 2px solid #1d3557;
+}
+
+.weather {
+  border: 3px solid #1d3557;
+  border-radius: 25px;
 }
 
 .join {
   text-transform: uppercase;
-  margin-top: 20px;
-  margin-bottom: 20px;
   color: white;
   background-color: #1d3557;
   font-weight: 700;
-  padding: 20px;
   transform: skewX(35deg);
 }
 

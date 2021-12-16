@@ -13,9 +13,9 @@ fetch(apiURL)
 
     // display the Preston weather sumary to the user
     document.getElementById("weatherdesc").textContent =
-      "Currently: " + jsObject.weather[0].description;
+      "Weather description: " + jsObject.weather[0].description;
     document.getElementById("humidity").textContent =
       "Humidity: " + jsObject.main.humidity + " %";
     document.getElementById("temperature").textContent =
-      "High: " + tempF.toFixed(0) + " °F";
+      "Temp: " + tempF.toFixed(0) + " °F";
   });
