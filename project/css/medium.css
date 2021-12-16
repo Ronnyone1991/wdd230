@@ -28,5 +28,18 @@
     margin-top: 20px;
     padding: 10px;
   }
+
+  #visit-heading {
+    text-align: right;
+    padding-right: 5px;
+  }
+
+  .weather {
+    text-align: center;
+  }
+
+  table {
+    margin: auto;
+  }
 }
 /*end medium*/
