@@ -50,5 +50,16 @@ nav ul.hide {
   font-size: 1.3rem;
   text-align: center;
 }
+
+.chamberview {
+  display: grid;
+  grid-template-columns: 300px;
+  text-align: center;
+}
+
+.activitytwo {
+  margin-top: 15px;
+}
+
 }
 /*end large*/

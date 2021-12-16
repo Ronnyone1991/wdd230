@@ -1,3 +1,11 @@
 @media only screen and (min-width: 32.5rem) {
-  
+  .chamberview {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-gap: 120px;
+  }
+
+  .activityone p {
+    text-align: left;
+  }
 }
