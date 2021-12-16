@@ -129,3 +129,12 @@ table th {
   border-radius: 50px;
   font-family: "Poppins", sans-serif;
 }
+
+#photohead {
+  font-family: "Bebas Neue", cursive;
+  margin: 10px;
+  letter-spacing: 1.4px;
+  border-radius: 30px;
+  background-color: #1d3557;
+  color: white;
+}
