@@ -1,0 +1,1 @@
+document.getElementById('mod').innerHTML = new Date(document.lastModified);
