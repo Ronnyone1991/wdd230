@@ -16,15 +16,6 @@ fetch(apiURL)
       "Currently: " + jsObject.weather[0].description;
     document.getElementById("humidity").textContent =
       "Humidity: " + jsObject.main.humidity + " %";
-    document.getElementById("windspeed").textContent =
-      "Wind Speed: " + jsObject.wind.speed + " mph";
     document.getElementById("temperature").textContent =
       "High: " + tempF.toFixed(0) + " °F";
-
-    //wind shill calculation
-    let s = jsObject.wind.speed;
-    let t = tempF;
-    let f = 35.47 + 0.6215 * t - 35.75 * s ** 0.16 + 0.4275 * s ** 0.16;
-    document.getElementById("windshill").innerHTML =
-      "Wind Shill: " + f.toFixed(0) + " °F";
   });

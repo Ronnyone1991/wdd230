@@ -80,5 +80,19 @@ footer a {
 .icon:hover {
   transform: scale(1.1);
 }
+
+.weather {
+  margin-top: 20px;
+  width: 750px;
+}
+
+.weather h2 {
+  font-size: 30px;
+}
+
+.join {
+  font-size: 30px;
+  text-align: right;
+}
 }
 /*end large*/

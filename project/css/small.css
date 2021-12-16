@@ -64,5 +64,21 @@ nav ul.hide {
   text-align: center;
 }
 
+.icon {
+  font-size: 25px;
+}
+
+footer {
+  text-align: center;
+  font-size: 20px;
+}
+
+.weather {
+  margin-top: 20px;
+}
+.weather h2 {
+  font-size: 19px;
+}
+
 }
 /*end small*/

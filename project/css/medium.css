@@ -8,5 +8,18 @@
   .activityone p {
     text-align: left;
   }
+
+  footer {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .footercontc {
+    letter-spacing: 1px;
+  }
+
+  .icon {
+    font-size: 30px;
+  }
 }
 /*end medium*/
