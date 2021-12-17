@@ -4,18 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="../project/images/favicon.ico">
+    <link rel="shortcut icon" href="../project/images/favicon.ico" />
     <link rel="stylesheet" href="../project/css/small.css" />
     <link rel="stylesheet" href="../project/css/medium.css" />
     <link rel="stylesheet" href="../project/css/large.css" />
     <link rel="stylesheet" href="../project/css/style.css" />
-    <script src="https://kit.fontawesome.com/ee2441f0d7.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ee2441f0d7.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Chammber's home page</title>
   </head>
   <body>
     <header class="headerfooter">
       <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9750font-size 50px;;</button>
+        <button onclick="toggleMenu()">&#9750;</button>
         <ul id="primaryNav" class="hide">
           <li><a href="../project/index.html">Home</a></li>
           <li><a href="../project/city.html">The city</a></li>
@@ -56,7 +59,7 @@
         interests.
       </p>
       <div class="chamberview">
-        <section class="activityone">
+        <div class="activityone">
           <picture>
             <img
               src="../project/images/picture1.jpg"
@@ -69,8 +72,8 @@
             images, social marketing and specialy to guarantee that our members
             can contribut to the develoment of the country and its industries
           </p>
-        </section>
-        <section class="activitytwo">
+        </div>
+        <div class="activitytwo">
           <picture>
             <img
               src="../project/images/chamber1.jpg"
@@ -85,82 +88,103 @@
             Bello Catholic University) also known in spanish
             <strong>Universidad Catolica Andres Bello</strong>
           </p>
-        </section>
+        </div>
       </div>
-      <section class="weather">
-          <h2 id=visit-heading>Are you planning to visit Caracas? we let you know if you have to use the umbrella</h2>
-          <hr>
-          <ul>
-            <li id="temperature"></li>
-            <li id="weatherdesc"></li>
-            <li id="humidity"></li>
-          </ul>
-          <section class="forecast">
-            <table>
-          <thead>
-            <tr>
-              <th class="dayWeek">Monday</th>
-              <th class="dayWeek">Tuesday</th>
-              <th class="dayWeek">Wednesday</th>
-              <th class="dayWeek">Thursday</th>
-              <th class="dayWeek">Friday</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <img
-                  class="imgweek"
-                  src="../project/images/placeholdericon.jpg"
-                  alt="daily forecast info"
-                /><br /><span class="tempweek"></span>
-              </td>
-              <td>
-                <img
-                  class="imgweek"
-                  src="../project/images/placeholdericon.jpg"
-                  alt="daily forecast info"
-                /><br /><span class="tempweek"></span>
-              </td>
-              <td>
-                <img
-                  class="imgweek"
-                  src="../project/images/placeholdericon.jpg"
-                  alt="daily forecast info"
-                /><br /><span class="tempweek"></span>
-              </td>
-              <td>
-                <img
-                  class="imgweek"
-                  src="../project/images/placeholdericon.jpg"
-                  alt="daily forecast info"
-                /><br /><span class="tempweek"></span>
-              </td>
-              <td>
-                <img
-                  class="imgweek"
-                  src="../project/images/placeholdericon.jpg"
-                  alt="daily forecast info"
-                /><br /><span class="tempweek"></span>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-          </section>
-        </section>
-        <section class="join">
-          <p>Join us <a href="../project/join.html" id="today" target="_blank"><strong>today</strong></a> and get access to exlusive benefits!</p>
-        </section>
+      <div class="weather">
+        <h2 id="visit-heading">
+          Are you planning to visit Caracas? we let you know if you have to use
+          the umbrella
+        </h2>
+        <hr />
+        <ul>
+          <li id="temperature"></li>
+          <li id="weatherdesc"></li>
+          <li id="humidity"></li>
+        </ul>
+        <div class="forecast">
+          <table>
+            <thead>
+              <tr>
+                <th class="dayWeek">Monday</th>
+                <th class="dayWeek">Tuesday</th>
+                <th class="dayWeek">Wednesday</th>
+                <th class="dayWeek">Thursday</th>
+                <th class="dayWeek">Friday</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <img
+                    class="imgweek"
+                    src="../project/images/placeholdericon.jpg"
+                    alt="daily forecast info"
+                  /><br /><span class="tempweek"></span>
+                </td>
+                <td>
+                  <img
+                    class="imgweek"
+                    src="../project/images/placeholdericon.jpg"
+                    alt="daily forecast info"
+                  /><br /><span class="tempweek"></span>
+                </td>
+                <td>
+                  <img
+                    class="imgweek"
+                    src="../project/images/placeholdericon.jpg"
+                    alt="daily forecast info"
+                  /><br /><span class="tempweek"></span>
+                </td>
+                <td>
+                  <img
+                    class="imgweek"
+                    src="../project/images/placeholdericon.jpg"
+                    alt="daily forecast info"
+                  /><br /><span class="tempweek"></span>
+                </td>
+                <td>
+                  <img
+                    class="imgweek"
+                    src="../project/images/placeholdericon.jpg"
+                    alt="daily forecast info"
+                  /><br /><span class="tempweek"></span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="join">
+        <p>
+          Join us
+          <a href="../project/join.html" id="today" target="_blank"
+            ><strong>today</strong></a
+          >
+          and get access to exlusive benefits!
+        </p>
+      </div>
     </main>
     <footer class="headerfooter">
       <section class="social">
         <h3 class="footercontc">Contact us!</h3>
-        <a href="https://www.facebook.com/" target="_blank"><i class="icon fab fa-facebook-square"></i></a>
-        <a href="https://www.instagram.com/" target="_blank"><i class="icon fa fa-instagram"></i></a>
-        <a href="https://twitter.com/?lang=us" target="_blank"><i class="icon fa fa-twitter-square"></i></a>
-        <a href="https://www.youtube.com/" target="_blank"><i class="icon fa fa-youtube-play"></i></a><br>
-        <i class="mail fas fa-envelope"></i><span>caracas'chamber@gmail.com</span>
-        <span>&copy 2021 caracas's chamber of comerce, service and industry | All rights reserved</span>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><i class="icon fab fa-facebook-square"></i
+        ></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><i class="icon fa fa-instagram"></i
+        ></a>
+        <a href="https://twitter.com/?lang=us" target="_blank"
+          ><i class="icon fa fa-twitter-square"></i
+        ></a>
+        <a href="https://www.youtube.com/" target="_blank"
+          ><i class="icon fa fa-youtube-play"></i></a
+        ><br />
+        <i class="mail fas fa-envelope"></i
+        ><span>caracas'chamber@gmail.com</span>
+        <span
+          >&copy; 2021 caracas's chamber of comerce, service and industry | All
+          rights reserved</span
+        >
       </section>
       <div id="lastm"></div>
     </footer>
