@@ -113,5 +113,13 @@ form {
   font-weight: 800;
 }
 
+#contact ul {
+  font-size: 20px;
+}
+
+#board ul {
+  font-size: 20px;
+
+}
 }
 /*end small*/

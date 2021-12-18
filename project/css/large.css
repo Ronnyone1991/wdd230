@@ -163,5 +163,10 @@ form {
   font-size: 20px;
 }
 
+#contact-box {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-gap: 300px;
+}
 }
 /*end large*/

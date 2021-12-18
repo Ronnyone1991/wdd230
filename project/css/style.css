@@ -238,3 +238,32 @@ legend {
   font-family: "Poppins", sans-serif;
   color: #1d3557;
 }
+
+#contact {
+  color: #1d3557;
+}
+
+#contact ul {
+  border-left: 5px solid #1d3557;
+  list-style-type: none;
+  padding-left: 4px;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+#board {
+  color: #1d3557;
+  text-align: center;
+}
+
+#board ul {
+  margin-top: 10px;
+  list-style-type: none;
+  border-right: 5px solid #1d3557;
+  font-family: "Poppins", sans-serif;
+  padding-right: 4px;
+}
+
+#contact-box {
+  text-align: center;
+}
