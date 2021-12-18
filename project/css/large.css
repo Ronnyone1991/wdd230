@@ -142,5 +142,13 @@ table {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+legend {
+  font-size: 20px;
+}
+
+form {
+  max-width: 70%;
+}
 }
 /*end large*/
