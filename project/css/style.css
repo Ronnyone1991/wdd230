@@ -218,3 +218,23 @@ legend {
   margin-top: 30px;
   border-radius: 20px;
 }
+
+.button:hover {
+  background-color: #1d3557;
+  color: white;
+}
+
+.thanks {
+  font-family: "Poppins", sans-serif;
+  color: #1d3557;
+  line-height: 35px;
+}
+
+.thanks p {
+  line-height: 20px;
+}
+
+.benefits {
+  font-family: "Poppins", sans-serif;
+  color: #1d3557;
+}
