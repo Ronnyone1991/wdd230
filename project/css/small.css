@@ -113,13 +113,17 @@ form {
   font-weight: 800;
 }
 
+#contact-box {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 #contact ul {
   font-size: 20px;
 }
 
 #board ul {
   font-size: 20px;
-
 }
 }
 /*end small*/
