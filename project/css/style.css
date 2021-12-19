@@ -269,6 +269,6 @@ legend {
   padding-right: 4px;
 }
 
-#contact-box {
-  text-align: center;
+.map-box {
+  margin-bottom: 20px;
 }
