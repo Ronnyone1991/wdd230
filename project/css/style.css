@@ -130,6 +130,11 @@ table th {
   font-family: "Poppins", sans-serif;
 }
 
+table td:hover {
+  background-color: #1d3557;
+  color: white;
+}
+
 #photohead {
   font-family: "Bebas Neue", cursive;
   margin: 10px;
