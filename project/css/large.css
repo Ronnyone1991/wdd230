@@ -167,6 +167,7 @@ form {
   display: grid;
   grid-template-columns: 400px 400px;
   grid-gap: 300px;
+  text-align: center;
 }
 }
 /*end large*/
