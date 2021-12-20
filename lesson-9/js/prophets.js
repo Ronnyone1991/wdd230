@@ -1,5 +1,5 @@
 const requestURL =
-  "https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json";
+  "https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.jso";
 
 fetch(requestURL)
   .then(function (response) {
@@ -7,7 +7,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject); // temporary checking for valid response and data parsing
-    const president = jsonObject["prophet"];
+    const president = jsonObject["prophets"];
     president.forEach((president) => {
       // create elements
       let card = document.createElement("section");
