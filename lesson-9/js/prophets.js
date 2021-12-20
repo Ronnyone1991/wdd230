@@ -33,3 +33,12 @@ fetch(requestURL)
       document.querySelector(".cards").appendChild(card);
     });
   });
+
+function view() {
+  document.getElementsByClassName('cards')[0].setAttribute('class', 'new');
+}
+
+function cards() {
+  document.getElementsByClassName('new')[0].setAttribute('class', 'cards');
+}
+

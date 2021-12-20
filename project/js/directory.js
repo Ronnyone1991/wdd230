@@ -1,5 +1,5 @@
 const requestURL =
-  "https://github.com/Ronnyone1991/wdd230/blob/master/project/json/directory.json";
+  "https://ronnyone1991.github.io/wdd230/project/json/directory.json";
 
 fetch(requestURL)
   .then(function (response) {
@@ -30,6 +30,6 @@ fetch(requestURL)
       card.appendChild(birthday);
       card.appendChild(birthplace);
       card.appendChild(img);
-      document.querySelector(".cards").appendChild(card);
+      document.querySelector(".card").appendChild(card);
     });
   });
