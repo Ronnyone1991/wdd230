@@ -7,7 +7,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject); // temporary checking for valid response and data parsing
-    const president = jsonObject["prophets"];
+    const president = jsonObject["prophet"];
     president.forEach((president) => {
       // create elements
       let card = document.createElement("section");
