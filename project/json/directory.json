@@ -11,6 +11,36 @@
       "Number": "+58 212-3354144 / +58 212-3354038 / +58 212-9916660",
       "website": "https://gracademic.com/",
       "imageurl": "../project/images/gracademic-long-logo.png"           
+    },
+    {
+       "name": "Laserline Taxi Comunicacion",
+      "Number": "+58 212-614.1461/1462/1463",
+      "website": "website under construction",
+      "imageurl": "../project/images/taxi-logo.jpg"
+    },
+    {
+       "name": "SUN EMBASSY TRAVEL",
+      "Number": "+58 0212-8389821",
+      "website": "website under construction",
+      "imageurl": "../project/images/_1403166932_52469.jpg"           
+    },
+    {
+       "name": "Western Unión",
+      "Number": "+58 800 226 4876",
+      "website": "https://www.westernunion.com/ve/es/home.html",
+      "imageurl": "../project/images/1618385846-47-western-union.png"           
+    },
+    {
+       "name": "DUGARTE SOVICA",
+      "Number": "+58 0212-8582524",
+      "website": "webiste under construction",
+      "imageurl": "../project/images/_1630196118-78-pablo-johan-dugarte-sovica.jpg"           
+    },
+    {
+       "name": "CENTRUM PUBLICIDAD",
+      "Number": "+58 212-5724343",
+      "website": "http://www.centrumpublicidad.com/",
+      "imageurl": ""           
     }
   ]
 }
