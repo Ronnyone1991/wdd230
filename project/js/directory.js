@@ -22,7 +22,7 @@ fetch(requestURL)
       contact.textContent = `Contact Numer: ${president.number}`;
       web.textContent = `Web site: ${president.website}`;
       img.setAttribute("src", president.imageurl);
-      img.setAttribute("alt", 'picture of the logo of the company');d
+      img.setAttribute("alt", 'picture of the logo of the company');
 
       card.appendChild(h2);
       card.appendChild(contact);

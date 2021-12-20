@@ -2,9 +2,18 @@
   "busisness": [
     {
       "name": "Repuestos Honda Corpomotriz Tokio",
-      "Number": "+58 212-762-01-48",
+      "Number": "+58 212-7620148",
       "website": "https://corpomotriztokio.com/",
       "imageurl": "../project/images/tokio-repuestos-honda.png"
+    },
+    {
+       "name": "G.R.Academic Exchange Programs",
+      "Number": "+58 212-3354144 / +58 212-3354038 / +58 212-9916660",
+      "website": "https://gracademic.com/",
+      "imageurl": "../project/images/b2.png"           
+    },
+    {
+                  
     }
   ]
 }
