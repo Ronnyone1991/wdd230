@@ -13,24 +13,20 @@ fetch(requestURL)
       let card = document.createElement("section");
       let h2 = document.createElement("h2");
       let contact = document.createElement("p");
-      let birthplace = document.createElement("p");
-      let a = documen.createElement("a");
+      let web = document.createElement("p");
       let img = document.createElement("img");
       
 
       // add JSON data and display it to the user
       h2.textContent = `${president.name}`;
       contact.textContent = `Contact Numer: ${president.number}`;
-      birthplace.textContent = `Web site: ${president.website}`;
+      web.textContent = `Web site: ${president.website}`;
       img.setAttribute("src", president.imageurl);
-      img.setAttribute("alt", 'picture of the logo of the company');
-      a.textContent = president.website;
-      a.setAttribute("target", "_blank");
+      img.setAttribute("alt", 'picture of the logo of the company');d
 
       card.appendChild(h2);
       card.appendChild(contact);
-      card.appendChild(birthplace);
-      card.appendChild(a);
+      card.appendChild(web);
       card.appendChild(img);
       document.querySelector(".card").appendChild(card);
     });
