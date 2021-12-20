@@ -12,23 +12,25 @@ fetch(requestURL)
       // create elements
       let card = document.createElement("section");
       let h2 = document.createElement("h2");
-      let birthday = document.createElement("p");
+      let contact = document.createElement("p");
       let birthplace = document.createElement("p");
+      let a = documen.createElement("a");
       let img = document.createElement("img");
+      
 
       // add JSON data and display it to the user
-      h2.textContent = `${president.name} ${president.lastname}`;
-      birthday.textContent = `Date of Birth: ${president.birthdate}`;
-      birthplace.textContent = `Place of Birth: ${president.birthplace}`;
+      h2.textContent = `${president.name}`;
+      contact.textContent = `Contact Numer: ${president.number}`;
+      birthplace.textContent = `Web site: ${president.website}`;
       img.setAttribute("src", president.imageurl);
-      img.setAttribute(
-        "alt",
-        `${president.name} ${president.lastname} - ${president.order}`
-      );
+      img.setAttribute("alt", 'picture of the logo of the company');
+      a.textContent = president.website;
+      a.setAttribute("target", "_blank");
 
       card.appendChild(h2);
-      card.appendChild(birthday);
+      card.appendChild(contact);
       card.appendChild(birthplace);
+      card.appendChild(a);
       card.appendChild(img);
       document.querySelector(".card").appendChild(card);
     });
