@@ -274,5 +274,28 @@ legend {
 }
 
 .card {
-  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.card section {
+  background-color: #1d3557;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.card h2, p {
+  padding: 0px 0px 6px 0px;
+}
+
+.list section {
+  border: 20px solid white;
+  border-radius: 10px;
 }

@@ -169,5 +169,22 @@ form {
   grid-gap: 300px;
   text-align: center;
 }
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  background-color: #1d3557;
+  color: white;
+  text-align: center;
+  max-width: 60%;
+  margin: auto;
+}
 }
 /*end large*/

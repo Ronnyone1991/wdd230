@@ -47,5 +47,33 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 25px;
   }
+
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .card img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+    max-width: 40%;
+    margin: auto;
+  }
+
+  .list img {
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+  }
 }
 /*end medium*/
