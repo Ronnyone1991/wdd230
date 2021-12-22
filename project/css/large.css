@@ -186,5 +186,9 @@ form {
   max-width: 60%;
   margin: auto;
 }
+
+.events ul li {
+  padding: 10px;
+}
 }
 /*end large*/

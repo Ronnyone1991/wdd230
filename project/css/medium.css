@@ -75,5 +75,9 @@
     height: 250px;
     font-size: 20px;
   }
+
+  .events ul li {
+    padding-bottom: 10px;
+  }
 }
 /*end medium*/

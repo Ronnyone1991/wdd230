@@ -299,3 +299,35 @@ legend {
   border: 20px solid white;
   border-radius: 10px;
 }
+
+.events {
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 5px;
+  background-color: aqua;
+}
+
+
+.eventheading {
+  text-align: center;
+  background-color: #1d3557;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: white;
+}
+
+.events ul {
+  list-style-type: none;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.events:hover {
+  box-shadow: 5px 5px 50px;
+  transform: scale(1.1);
+}
