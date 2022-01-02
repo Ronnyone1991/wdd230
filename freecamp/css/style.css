@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#title {
+  font-family: "Staatliches", cursive;
+}
+
+#main,
+header,
+footer {
+  text-align: center;
+  font-family: "Mitr", sans-serif;
+}
+
+#tribute-info {
+  max-width: 40%;
+  margin: auto;
+}
+
+#tribute-info {
+  text-align: left;
+}
+
+#tribute-info ul li {
+  padding-bottom: 20px;
+}
+
+#img-caption {
+  font-size: 15px;
+}
+
+#quote {
+  padding-top: 40px;
+}
+
+footer {
+  font-weight: 900;
+  font-size: 25px;
+  padding-top: 30px;
+  max-width: 940px;
+  margin: auto;
+}
