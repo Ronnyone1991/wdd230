@@ -15,5 +15,13 @@
   .content-style {
     text-align: center;
   }
+
+  .post-date {
+    margin-left: 180px;
+  }
+
+  article {
+    max-width: 980px;
+  }
 }
 /*end large*/

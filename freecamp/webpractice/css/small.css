@@ -4,5 +4,34 @@
     grid-template-columns: 1fr;
     text-align: center;
   }
+
+  header nav ul li {
+    padding: 20px 0px 0px 0px;
+  }
+
+  header {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-bottom: 60px;
+  }
+
+  header h1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .nav-style {
+    text-align: right;
+  }
+
+  .post-date {
+    text-align: left;
+    margin-left: 56px;
+    margin-bottom: 20px;
+  }
+
+  .post-content {
+    margin-bottom: 60px;
+  }
 }
 /*end small*/
