@@ -1,0 +1,19 @@
+@media only screen and (min-width: 60em) {
+  div {
+    display: grid;
+    grid-template-columns: 15% 90%;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  header nav ul li {
+    padding: 20px 0px 0px 0px;
+  }
+
+  .content-style {
+    text-align: center;
+  }
+}
+/*end large*/

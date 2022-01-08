@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap");
-
+* {
+  margin: 0;
+}
 h1,
 h2 {
   font-family: "Lora", serif;
@@ -38,5 +40,4 @@ main {
   background-color: #faebd7;
   max-width: 980px;
   margin: auto;
-  text-align: center;
 }
