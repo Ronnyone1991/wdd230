@@ -1,1 +1,8 @@
-@media only screen and (max-width:20em) {}
+@media only screen and (min-width: 18em) {
+  div {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+/*end small*/
